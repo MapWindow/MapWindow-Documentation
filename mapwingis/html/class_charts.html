@@ -369,7 +369,7 @@ Two types of charts are available:</p><ol type="1">
 <div class="ttc" id="aclass_shapefile_html_a1d6095398fc1594e7fab56b70ee914a8"><div class="ttname"><a href="class_shapefile.html#a1d6095398fc1594e7fab56b70ee914a8">Shapefile.Charts</a></div><div class="ttdeci">Charts Charts</div><div class="ttdoc">Gets or sets an instance of Charts class associated with the shapefile.</div><div class="ttdef"><b>Definition:</b> Shapefile.cs:195</div></div>
 </div><!-- fragment --><p >Individual charts can be accessed using <a class="el" href="class_charts.html#ae67f234f01359be81ef8996eededd4ab" title="Gets a reference to the chart with the specified index.">Charts.get_Chart()</a> property. It's possible to change their properties like visibility or position. <a class="el" href="class_chart.html#a7650c174b0de7781b54da31be20848fe" title="Returns the rectangle which the chart occupies on the screen.">Chart.ScreenExtents</a> property return screen coordinates occupied by particular chart which provides a convenient way for highlighting or mouse dragging operation on the chart.<br  />
  By default charts are drawn for each shape of the shapefile, but if only a subset of shapes require charts it's possible to set <a class="el" href="class_charts.html#a717df36d8272c57d605fa09a1d05b73a" title="Gets or sets the expression which defines the subset of charts which will be displayed on the map.">Charts.VisibilityExpression</a>, or toggle the visibility of individual charts (<a class="el" href="class_chart.html#af5d7e5b093b1d78c5cc541bc769b8c63" title="Gets or sets the value which indicates whether the chart should be drawn on the map.">Chart.Visible</a>). Though the number of individual charts will always be equal to the number of shapes in the shapefile, which means that charts will be automatically added and removed after corresponding editing operation in the parent shapefile. It's not possible to set different visualization options or the number of fields for individual charts.<br  />
- It's not possible to use charts independently of the shapefile layer. But it's possible to create a dummy shapefile, populate it with data and display any charts at any location. </p><dl class="newpage48"><dt><b><a class="el" href="newpage48.html#_newpage48000034">New API 4.8:</a></b></dt><dd>Added in version 4.8 </dd></dl>
+ It's not possible to use charts independently of the shapefile layer. But it's possible to create a dummy shapefile, populate it with data and display any charts at any location. </p><dl class="newpage48"><dt><b><a class="el" href="newpage48.html#_newpage48000035">New API 4.8:</a></b></dt><dd>Added in version 4.8 </dd></dl>
 <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_segmentation_8cs-example.html#_a30">Segmentation.cs</a>.</dd>
 </dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -2000,7 +2000,7 @@ Two types of charts are available:</p><ol type="1">
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_charts.html">Charts</a></li>
-    <li class="footer">Generated on Tue Feb 15 2022 13:44:39 for MapWinGIS by 
+    <li class="footer">Generated on Tue Feb 15 2022 14:07:21 for MapWinGIS by 
 		<a href="https://www.doxygen.org/index.html">
 			<img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/>
 		</a> 1.9.3 
