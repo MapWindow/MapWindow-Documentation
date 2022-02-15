@@ -10,13 +10,14 @@
 #header-logos > div {
   align-self: center;
 }
-#header-logos img {
-  max-width: 40vw;
-  min-width: 160px;
-}
 #project-logo img {
 	max-width: 90vw;
 	min-width: 365px;
+}
+
+div#sponsors img {
+    height: 96px;
+    padding-top: 1rem;
 }
 
 @media (max-width: 800px) {
