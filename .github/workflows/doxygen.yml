@@ -35,8 +35,8 @@ jobs:
     - name: Move files
       run: |
         mkdir ./publish
-        mv ./MapWinGIS/output/html/*.* ./publish/mapwingis/*.*
-        mv ./Website/*.* ./publish/*.*    
+        mv ./MapWinGIS/output/html/*.* ./publish/mapwingis/
+        mv ./Website/*.* ./publish/   
     
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
