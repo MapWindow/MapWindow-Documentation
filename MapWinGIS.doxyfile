@@ -51,7 +51,7 @@ PROJECT_BRIEF          = "MapWinGIS.ocx is used to provide GIS and mapping funct
 # pixels and the maximum width should not exceed 200 pixels. Doxygen will copy
 # the logo to the output directory.
 
-PROJECT_LOGO           = D:/dev/MapWindow/MapWinGIS/git/docs/mapwingis_logo5-100px.png
+PROJECT_LOGO           = mapwingis_logo5-100px.png
 
 # The OUTPUT_DIRECTORY tag is used to specify the (relative or absolute) path
 # into which the generated documentation will be written. If a relative path is
@@ -265,10 +265,10 @@ ALIASES                = "new48=\xrefitem newpage48 \"New API 4.8\" \"New API 4.
                          "new490=\xrefitem newpage490 \"New API 4.9.0\" \"New API 4.9.0\"" \
                          "new491=\xrefitem newpage491 \"New API 4.9.1\" \"New API 4.9.1\"" \
                          "new492=\xrefitem newpage492 \"New API 4.9.2\" \"New API 4.9.2\"" \
+                         "removed493=\xrefitem removed493 \"Removed in 4.9.3\" \"Removed in 4.9.3\"" \
                          "new493=\xrefitem newpage493 \"New API 4.9.3\" \"New API 4.9.3\"" \
                          "new494=\xrefitem newpage494 \"New API 4.9.4\" \"New API 4.9.4\"" \
-                         "new495=\xrefitem newpage495 \"New API 4.9.5\" \"New API 4.9.5\"" \
-                         "removed493=\xrefitem removed493 \"Removed in 4.9.3\" \"Removed in 4.9.3\"" \
+                         "new495=\xrefitem newpage495 \"New API 4.9.5\" \"New API 4.9.5\"" \                         
                          "new500=\xrefitem newpage500 \"New API 5.0\" \"New API 5.0\"" \
                          "new510=\xrefitem newpage510 \"New API 5.1\" \"New API 5.1\"" \
                          "new52=\xrefitem newpage52 \"New API 5.2\" \"New API 5.2\"" \
@@ -1161,46 +1161,6 @@ USE_HTAGS              = NO
 # The default value is: YES.
 
 VERBATIM_HEADERS       = YES
-
-# If the CLANG_ASSISTED_PARSING tag is set to YES then doxygen will use the
-# clang parser (see:
-# http://clang.llvm.org/) for more accurate parsing at the cost of reduced
-# performance. This can be particularly helpful with template rich C++ code for
-# which doxygen's built-in parser lacks the necessary type information.
-# Note: The availability of this option depends on whether or not doxygen was
-# generated with the -Duse_libclang=ON option for CMake.
-# The default value is: NO.
-
-CLANG_ASSISTED_PARSING = NO
-
-# If the CLANG_ASSISTED_PARSING tag is set to YES and the CLANG_ADD_INC_PATHS
-# tag is set to YES then doxygen will add the directory of each input to the
-# include path.
-# The default value is: YES.
-# This tag requires that the tag CLANG_ASSISTED_PARSING is set to YES.
-
-CLANG_ADD_INC_PATHS    = YES
-
-# If clang assisted parsing is enabled you can provide the compiler with command
-# line options that you would normally use when invoking the compiler. Note that
-# the include paths will already be set by doxygen for the files and directories
-# specified with INPUT and INCLUDE_PATH.
-# This tag requires that the tag CLANG_ASSISTED_PARSING is set to YES.
-
-CLANG_OPTIONS          =
-
-# If clang assisted parsing is enabled you can provide the clang parser with the
-# path to the directory containing a file called compile_commands.json. This
-# file is the compilation database (see:
-# http://clang.llvm.org/docs/HowToSetupToolingForLLVM.html) containing the
-# options used when the source files were built. This is equivalent to
-# specifying the -p option to a clang tool, such as clang-check. These options
-# will then be passed to the parser. Any options specified with CLANG_OPTIONS
-# will be added as well.
-# Note: The availability of this option depends on whether or not doxygen was
-# generated with the -Duse_libclang=ON option for CMake.
-
-CLANG_DATABASE_PATH    =
 
 #---------------------------------------------------------------------------
 # Configuration options related to the alphabetical class index
@@ -2437,7 +2397,7 @@ DOT_FONTPATH           =
 # Possible values are: NO, YES, TEXT and GRAPH.
 # The default value is: YES.
 
-CLASS_GRAPH            = GRAPH
+CLASS_GRAPH            = YES
 
 # If the COLLABORATION_GRAPH tag is set to YES then doxygen will generate a
 # graph for each documented class showing the direct and indirect implementation
