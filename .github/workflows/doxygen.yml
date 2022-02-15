@@ -32,15 +32,10 @@ jobs:
         # Working directory
         working-directory: "." # default is .
     
-    # - name: Deploy
-    #   uses: peaceiris/actions-gh-pages@v3
-    #   with:
-    #     github_token: ${{ secrets.GITHUB_TOKEN }}
-    #     publish_dir: ./html
-    
-    - name: Publish to GitHub Wiki
-      uses: SwiftDocOrg/github-wiki-publish-action@1.0.0
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        path: "./output/html"
-      env:
-        GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
+        github_token: ${{ secrets.GITHUB_PERSONAL_ACCESS_TOKEN }}
+        publish_dir: ./output/html
+    
+
