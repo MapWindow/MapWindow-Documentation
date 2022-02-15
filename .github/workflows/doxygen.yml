@@ -34,10 +34,10 @@ jobs:
         
     - name: Move files
       run: |
-        mkdir ./publish
-        mkdir ./publish/mapwingis
-        mv ./MapWinGIS/output/html/*.* ./publish/mapwingis/
-        mv ./Website/*.* ./publish/   
+        sudo mkdir ./publish
+        sudo mkdir ./publish/mapwingis
+        sudo mv ./MapWinGIS/output/html/*.* ./publish/mapwingis/
+        sudo mv ./Website/*.* ./publish/   
     
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
