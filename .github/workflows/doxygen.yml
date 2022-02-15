@@ -35,6 +35,7 @@ jobs:
     - name: Move files
       run: |
         mkdir ./publish
+        mkdir ./publish/mapwingis
         mv ./MapWinGIS/output/html/*.* ./publish/mapwingis/
         mv ./Website/*.* ./publish/   
     
