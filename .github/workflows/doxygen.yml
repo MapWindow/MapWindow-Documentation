@@ -28,14 +28,20 @@ jobs:
       uses: mattnotmitt/doxygen-action@edge
       with:
         # Path to Doxyfile
-        doxyfile-path: "./MapWinGIS.doxyfile" # default is ./Doxyfile
+        doxyfile-path: "MapWinGIS.doxyfile" # default is ./Doxyfile
         # Working directory
-        working-directory: "." # default is .
+        working-directory: "./MapWinGIS" # default is .
+        
+    - name: Move files
+      run: |
+        mkdir ./publish
+        mv ./MapWinGIS/output/html/*.* ./publish/mapwingis/*.*
+		mv ./Website/*.* ./publish/*.*    
     
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
-        publish_dir: ./output/html
+        publish_dir: ./publish
     
 

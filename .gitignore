@@ -350,4 +350,4 @@ MigrationBackup/
 .ionide/
 
 # Custom
-output/html/
+/*/output/html/

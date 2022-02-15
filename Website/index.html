@@ -1,0 +1,395 @@
+﻿<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MapWindow.nl - Ondersteuning voor MapWindow5 open source desktop GIS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="mapwindow, mapwingis, mapwindows, free, gis, desktop, gratis, GIS, spatial, open, source, open source, open-source, community, support, ondersteuning, qgis, tatukgis, migratie." />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- Custom Theme files -->
+    <!--webfont-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">    
+    <!----font-Awesome----->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!----font-Awesome----->
+    <!--Animation-->
+    <script src="js/wow.min.js"></script>
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+    <script>
+        new WOW().init();
+    </script>
+    
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GZ4Q3ZFXED"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'G-GZ4Q3ZFXED');
+	</script>    
+</head>
+<body>
+    <div class="header wow fadeInUpBig" data-wow-delay="0.4s">
+        <div class="container">
+            <div class="header_top">
+                <h1>MapWindow.nl</h1>
+                <h2>Nederlandse ondersteuning voor de open source GIS applicatie MapWindow5 en de mapping engine MapWinGIS</h2>
+            </div>
+        </div>
+    </div>
+    <div class="header-home">
+        <div class="fixed-header">
+            <div class="logo">
+                <a href="index.html">
+                    <span class="secondary">Open-Source GIS Desktop</span>
+                    <span class="main">MapWindow5</span>
+                </a>
+            </div>
+            <div class="top-nav">
+                <span class="menu"> </span>
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#services">Diensten</a></li>
+                    <li><a href="#about">Wie zijn wij</a></li>
+                    <li><a href="#downloads">Downloads</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#english">English</a></li>
+                </ul>
+                <!-- script-nav -->
+                <script>
+                    $("span.menu").click(function () {
+                        $(".top-nav ul").slideToggle(500, function () {
+                        });
+                    });
+                </script>
+                <!-- //script-nav -->
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <!--script-->
+    <script>
+        $(document).ready(function () {
+            $(".top-nav li a").click(function () {
+                $(this).parent().addClass("active");
+                $(this).parent().siblings().removeClass("active");
+            });
+        });
+    </script>
+    <!-- script-for sticky-nav -->
+    <script>
+        $(document).ready(function () {
+            var navoffeset = $(".header-home").offset().top;
+            $(window).scroll(function () {
+                var scrollpos = $(window).scrollTop();
+                if (scrollpos >= navoffeset) {
+                    $(".header-home").addClass("fixed");
+                } else {
+                    $(".header-home").removeClass("fixed");
+                }
+            });
+
+        });
+    </script>
+    <!-- /script-for sticky-nav -->
+    <!--//header-->
+    <!--<div class="grid_1">
+        <div class="container">
+            <div class="span12 hexagon_box">
+                <section class="effect-1">
+                    <ul>
+                        <li class="wow bounce" data-wow-delay="0.4s">
+                            <div class="service-box hexagon">
+                                <figure class="icon"><img src="images/icon_1.png" alt="" /></figure>
+                                <div class="service-box_body">
+                                    <div class="btn-align">
+                                        <a href="#" class="btn btn-inverse btn-normal btn-primary " target="_self">Lorem Ipsum</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=" wow fadeInRight" data-wow-delay="0.4s">
+                            <div class="service-box hexagon">
+                                <figure class="icon"><img src="images/icon_2.png" alt="" /></figure>
+                                <div class="service-box_body">
+                                    <div class="btn-align">
+                                        <a href="#" class="btn btn-inverse btn-normal btn-primary " target="_self">consuetudium</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="service-box hexagon">
+                                <figure class="icon"><img src="images/icon_3.png" alt="" /></figure>
+                                <div class="service-box_body">
+                                    <div class="btn-align">
+                                        <a href="#" class="btn btn-inverse btn-normal btn-primary " target="_self">mutationem</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="lazy-load-box  effect-slidefromright">
+                    <ul>
+                        <li class="wow fadeInRight" data-wow-delay="0.4s">
+                            <div class="service-box hexagon">
+                                <figure class="icon"><img src="images/icon_4.png" alt="" /></figure>
+                                <div class="service-box_body">
+                                    <div class="btn-align">
+                                        <a href="#" class="btn btn-inverse btn-normal btn-primary " target="_self">dynamicus</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="wow bounceInDown" data-wow-delay="0.4s">
+                            <div class="service-box hexagon">
+                                <figure class="icon"><img src="images/icon_5.png" alt="" /></figure>
+                                <div class="service-box_body">
+                                    <div class="btn-align">
+                                        <a href="#" class="btn btn-inverse btn-normal btn-primary " target="_self">processus</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>-->
+
+    <div id="home" class="clearfix" style="height: 1em"> </div>
+    <div class="grid_2">
+        <div class="container">
+            <h1>Welkom bij MapWindow.nl</h1>
+            Deze site heeft als doel om Nederlandstalige gebruikers te ondersteunen bij het werken met MapWindow Open Source GIS.<br />
+            MapWindow GIS is een desktop applicatie die bestaat uit twee onderdelen: MapWinGIS, de mapping engine en MapWindow5.<br />
+            MapWinGIS is een <em>ActiveX control</em> geschreven in C++. Hierdoor kan deze mapping engine ook in MS-Excel, MS-Access of je eigen WinForms applicatie gebruikt worden.
+            MapWinGIS maakt gebruik van andere bekende Open Source libraries, zoals
+            <a href="http://www.gdal.org/" target="_blank" title="GDAL - Geospatial Data Abstraction Library">GDAL</a>,
+            <a href="https://github.com/OSGeo/proj.4/wiki" target="_blank" title="PROJ.4 - Cartographic Projections Library">PROJ4</a>,
+            <a href="https://trac.osgeo.org/geos/" target="_blank" title="GEOS - Geometry Engine, Open Source">GEOS</a> en
+            <a href="https://libspatialindex.github.io/" target="_blank">libspatialindex</a>.<br />
+            Op deze pagina kunt u verder lezen welke diensten we bieden, wie we zijn en waar u MapWindow kunt downloaden.<br />
+            Click <a href="#english" title="Go to the English summary">here</a> if you are looking for an English summary.
+        </div>
+    </div>
+
+    <div id="services" class="clearfix" style="height: 12em"> </div>
+    <div class="grid_2">
+        <div class="container">
+            <h3 class="head_1 wow rotateInUpLeft" data-wow-delay="0.4s">Onze diensten</h3>
+            <div class="col-md-3 col-sm-6 box_6 wow rotateInDownLeft" data-wow-delay="0.4s">
+                <img src="images/tutorials.jpg" class="img-responsive" alt="" />
+                <div class="desc">
+                    <h4>Tutorials</h4>
+                    <p>Binnenkort publiceren we een reeks Nederlandstalige video tutorials over MapWindow5, de nieuwste versie van de MapWindow familie.</p>
+                    <div class="more"><a href="#contact"><img src="images/more.png" alt=""></a></div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 box_6 wow lightSpeedIn" data-wow-delay="0.4s">
+                <img src="images/training.jpg" class="img-responsive" alt="" />
+                <div class="desc">
+                    <h4>Trainingen</h4>
+                    <p>MapWindow.nl verzorgt trainingen MapWindow GIS zowel klassikaal als individueel en op elke locatie.</p>
+                    <div class="more"><a href="#contact"><img src="images/more.png" alt=""></a></div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 box_6 wow rotateIn " data-wow-delay="0.4s">
+                <img src="images/development.jpg" class="img-responsive" alt="" />
+                <div class="desc">
+                    <h4>Ontwikkelen</h4>
+                    <p>Bij MapWindow.nl kunt u terecht voor maatwerkoplossingen, zoals het ontwikkelen van specifieke plug-ins en het opmaken van kaart- en printlayouts.</p>
+                    <div class="more"><a href="#contact"><img src="images/more.png" alt=""></a></div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 box_6 wow bounceInDown " data-wow-delay="0.6s">
+                <img src="images/support.jpg" class="img-responsive" alt="" />
+                <div class="desc">
+                    <h4>Ondersteuning</h4>
+                    <p>We bieden beheer en onderhoud van uw GIS omgeving, advies op het gebied van GIS en support voor MapWindow GIS. Ook voor het migreren van uw GIS omgeving kunt u bij ons terecht.</p>
+                    <div class="more"><a href="#contact"><img src="images/more.png" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="clearfix" style="height: 6em"> </div>
+    <div class="team">
+        <div class="container">
+            <h3 class="head_2 wow rollIn" data-wow-delay="0.4s">Wie zijn wij?</h3>
+            <div class="img-wrapper wow slideInLeft" data-wow-delay="0.4s">
+                <a href="#"><img src="images/bontepaarden.jpg" class="img-responsive" alt="" /></a>
+                <a href="#"><img src="images/topx.jpg" class="img-responsive" alt="" /></a>
+                <a href="#"><img src="images/MW5.jpg" class="img-responsive" alt="" /></a>
+            </div>
+            <blockquote class="blockquote1">
+                <div class="block_info wow slideInRight" data-wow-delay="0.4s">
+                    <span class="heading">
+                        MapWindow.nl is een samenwerkingsverband tussen
+                        <a href="http://www.bontepaarden.nl" target="_blank" title="Bontepaarden.nl - Automatisering voor internet en GIS">Bontepaarden.nl</a> en
+                        <a href="https://topx-group.nl/initiatieven/topx-geo-ict/">TopX Geo-ICT</a>.
+                    </span>
+                    Gezamenlijk bieden ze de trainingen aan, geven ze support en voeren ze de aanpassingen en uitbreidingen uit voor MapWindow5.<br />
+                    Paul Meems (van Bontepaarden.nl) is al ruim 15 jaar actief in de MapWindow GIS Community. Eerst als gebruiker en later als vertaler en ontwikkelaar.
+                    Op de verschillende MapWindow fora is Paul ook al jaren actief bij het helpen van gebruikers en ontwikkelaars van MapWindow en MapWinGIS.<br />
+                    Omdat Paul al jaren werkt voor TopX kon een meer officiëlere samenwerking niet lang uitblijven. Dankzij de samenwerking kan MapWindow.nl een breed scala aan diensten aanbieden,
+                    waaronder trainingen, support en maatwerk oplossingen.<br />
+                    Ga naar <a href="#contact">contact</a> als u meer wilt weten wat MapWindow.nl voor uw organisatie en/of project kan betekenen.
+                </div>
+                <!--<span class="author wow bounce" data-wow-delay="0.4s"><a href="#">Dolor Smith, (trainer)</a></span>-->
+            </blockquote>
+        </div>
+    </div>
+
+    <div id="downloads" class="clearfix" style="height: 12em"> </div>
+    <div class="students wow bounceInLeft" data-wow-delay="0.4s">
+        <div class="container">
+            <address><img src="images/download-256.png" class="img-responsive" alt="" /></address>
+            <h3>Downloads</h3>
+            <div class="custom_testimonials_wrap_inner">
+                <div class="extra-wrap">
+                    <p>
+                        MapWindow5 is te downloaden via de GitHub website.<br />
+                        <a href="https://github.com/MapWindow/MapWindow5/releases" target="_blank" title="Download MapWindow5 GIS"><i class="fa fa-download" style="color: #119EDA"></i> github.com/MapWindow/MapWindow5</a>
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="clearfix" style="height: 5em"> </div>
+    <div class="grid_4">
+        <div class="container">
+            <h1 class="blog_head">Contact</h1>
+            <div class="contact">
+                <div class="col-md-12 contact_left">
+                    <h3>Contact info</h3>
+                    <p>Wilt u meer weten over MapWindow of over wat MapWindow.nl kan betekenen voor uw organisatie of project? Neem dan contact met ons op, via onderstaande mogelijkheden:</p>
+                    <ul style="list-style: none; margin-bottom: 1em; margin-top: 1em;">
+                        <li>
+                            <b>MapWindow.nl</b><br />
+                            Zernikepark 12<br />
+                            9747 AN Groningen
+                        </li>
+                        <li><i class="fa fa-phone"></i> <a href="tel:050-7502115">050-7502115</a></li>
+                        <li><i class="fa fa-mobile"></i> <a href="tel:06-53989481">06-53989481</a></li>
+                        <li><i class="fa fa-envelope"></i> <a href="mailto:info@mapwindow.nl">info(at)mapwindow.nl</a></li>
+                    </ul>
+                </div>
+                <!--<div class="col-md-8 contact_right">
+                    <h3>Catch me</h3>
+                    <form>
+                        <div class="text">
+                            <div class="text-fild">
+                                <span>Name:</span>
+                                <input type="text" class="text" value="Your Name here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Name here';}">
+                            </div>
+                            <div class="text-fild">
+                                <span>Email:</span>
+                                <input type="text" class="text" value="Your Email here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Email here';}">
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="msg-fild">
+                                <span>Subject:</span>
+                                <input type="text" class="text" value="Your Subject here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Subject here';}">
+                        </div>
+                        <div class="message-fild">
+                                <span>Message:</span>
+                                <textarea> </textarea>
+                        </div>
+                        <label class="btn1 btn2 btn-8 btn-8c"><input type="submit" value="Send"></label>
+                    </form>
+                </div>-->
+                <div class="clearfix"> </div>
+            </div>
+            <div class="map">
+                <iframe scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=6.466312408447265%2C53.21780322271204%2C6.579608917236328%2C53.27142417849459&amp;layer=mapnik&amp;marker=53.244622099159955%2C6.522960662841797"></iframe>
+				<br />
+				<button id="osmbutton"><a href="https://www.openstreetmap.org/?mlat=53.2446&amp;mlon=6.5230#map=14/53.2446/6.5230" target="_blank">Grotere kaart bekijken</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="english" class="clearfix" style="height: 12em"> </div>
+    <div class="students wow bounceInLeft" data-wow-delay="0.4s">
+        <div class="container">
+            <address class="img-wrapper">
+                <a href="#"><img src="images/flag.png" class="img-responsive" alt="" style="width: 200px; height:200px" /></a>
+            </address>
+            <h3>English summary</h3>
+            <div class="custom_testimonials_wrap_inner">
+                <div class="extra-wrap">
+                    <p>
+                        MapWindow.nl offers support for MapWindow Open Source GIS. We also offer training, free video tutorials and custom development.<br />
+                        <a href="#contact" title="Contact us for more information">Contact us</a> for more information.
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer wow fadeInRight" data-wow-delay="0.4s">
+        <div class="container">
+            <div class="row footer_top">
+                <div class="col-sm-4 col-xs-3">
+                    <ul class="list1">
+                        <li><h3>Overzicht</h3></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">Wie zijn wij?</a></li>
+                        <li><a href="#downloads">Downloads</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-xs-3">
+                    <ul class="list1">
+                        <li><h3>Diensten</h3></li>
+                        <li><a href="#services">Video tutorials</a></li>
+                        <li><a href="#services">Trainingen</a></li>
+                        <li><a href="#services">Ontwikkelen</a></li>
+                        <li><a href="#services">Ondersteuning</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-xs-6">
+                    <ul class="socials">
+                        <li><a href="https://github.com/MapWindow" target="_blank" title="MapWindow code op Github"><i class="fa gh fa-github"></i></a></li>
+                        <li><a href="https://mapwindow.discourse.group/" target="_blank" title="MapWindow forum hosted by Discourse"><i class="fa dc fa-question"></i></a></li>
+                        <li><a href="https://mapwindow.atlassian.net/jira/projects" target="_blank" title="MapWindow issue tracker hosted by Atlassian Jira Cloud"><i class="fa jr fa-bug"></i></a></li>
+                        <li><a href="https://www.linkedin.com/groups/122945" target="_blank" title="MapWindow group op LinkedIn"><i class="fa ln fa-linkedin"></i></a></li>
+                        <li><a href="https://twitter.com/mapwindow_nl" target="_blank" title="Het MapWindow.nl Twitter account"><i class="fa tw fa-twitter"></i></a></li>
+                    </ul>
+                    <ul class="list2">
+                        <li><strong class="phone">06-53989481</strong></li>
+                        <li>Vragen? <a href="mailto:info@mapwindow.nl">info(at)mapwindow.nl</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy">
+        <p>
+            Copyright &copy; 2016-2022 - All Rights Reserved - Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a>
+        </p>
+    </div>
+
+</body>
+</html>		
