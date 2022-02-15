@@ -1,0 +1,3 @@
+<map id="GlobalSettings" name="GlobalSettings">
+<area shape="rect" id="node1" title="Holds global settings for MapWinGIS. Allows to retrieve GDAL errors." alt="" coords="5,5,219,361"/>
+</map>

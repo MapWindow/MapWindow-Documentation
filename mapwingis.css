@@ -1,0 +1,32 @@
+#header-logos {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 1rem;
+}
+#header-logos > #sponsors {
+  padding-right: 1rem;
+}
+#header-logos > div {
+  align-self: center;
+}
+#header-logos img {
+  max-width: 40vw;
+  min-width: 160px;
+}
+#project-logo img {
+	max-width: 90vw;
+	min-width: 365px;
+}
+
+@media (max-width: 800px) {
+  #header-logos {
+    flex-direction: column;
+  } 
+}
+
+@media (max-width: 1090px) {
+  #syncfusion {
+    display: none;
+  }
+}

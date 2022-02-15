@@ -1,0 +1,3 @@
+<map id="UndoList" name="UndoList">
+<area shape="rect" id="node1" title="Holds list of actions performed by user with interactive editing tools to enable undo functionality." alt="" coords="5,5,128,244"/>
+</map>

@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['rainbox_0',['Rainbox',['../_enumerations_8cs.html#a561edf7484cc1fbff82cd802a8150d60ad37c56bd189b0f5897658640431261cb',1,'Enumerations.cs']]],
+  ['random_1',['Random',['../_enumerations_8cs.html#a8f0d69fe9657cb8a38592001e3132a98a64663f4646781c9c0110838b905daa23',1,'Enumerations.cs']]],
+  ['rbclassic_2',['rbClassic',['../_enumerations_8cs.html#a36a1d0398d0100cfd196ee92ab48158aa575caa4bdc9b2bc7de3fcfb66be4c285',1,'Enumerations.cs']]],
+  ['rbintuitive_3',['rbIntuitive',['../_enumerations_8cs.html#a36a1d0398d0100cfd196ee92ab48158aa8e0f1671fb562b6e4e2bdf64fe867778',1,'Enumerations.cs']]],
+  ['rbkeepscale_4',['rbKeepScale',['../_enumerations_8cs.html#a36a1d0398d0100cfd196ee92ab48158aa9dd79b074f6a54510cce6f0d1286d36d',1,'Enumerations.cs']]],
+  ['rbmodern_5',['rbModern',['../_enumerations_8cs.html#a36a1d0398d0100cfd196ee92ab48158aab067aa0a772b4edecae6ecf9533969ae',1,'Enumerations.cs']]],
+  ['rbwarp_6',['rbWarp',['../_enumerations_8cs.html#a36a1d0398d0100cfd196ee92ab48158aa026a38ae6e4e80a05794ad5d2b14c818',1,'Enumerations.cs']]],
+  ['red_7',['Red',['../_enumerations_8cs.html#a56128309d85c3a2ffcd1e585e4b82c6daee38e4d5dd68c4e440825018d549cb47',1,'Enumerations.cs']]],
+  ['redrawall_8',['RedrawAll',['../_enumerations_8cs.html#a466377e9561be0ab96e04cc2b139cf38ace89939dd96d8fb17022ea7dbbd6e64e',1,'Enumerations.cs']]],
+  ['redrawminimal_9',['RedrawMinimal',['../_enumerations_8cs.html#a466377e9561be0ab96e04cc2b139cf38ad4e2fc35458fb2a8522e5f6ab485ce8e',1,'Enumerations.cs']]],
+  ['redrawskipalllayers_10',['RedrawSkipAllLayers',['../_enumerations_8cs.html#a466377e9561be0ab96e04cc2b139cf38a19ef1f8e2b9f2e9b072620e0d94efebe',1,'Enumerations.cs']]],
+  ['redrawskipdatalayers_11',['RedrawSkipDataLayers',['../_enumerations_8cs.html#a466377e9561be0ab96e04cc2b139cf38aeda16838b809f97b975d16eb80e541d4',1,'Enumerations.cs']]],
+  ['reversedrainbow_12',['ReversedRainbow',['../_enumerations_8cs.html#a561edf7484cc1fbff82cd802a8150d60a36ac919f993949fdbe2a5a1e7d17320d',1,'Enumerations.cs']]],
+  ['rocauto_13',['rocAuto',['../_enumerations_8cs.html#add38ce70023cf6564cea0e1e17fd6c5ca4ebcbcca1478ae6264e7ad51afe23b51',1,'Enumerations.cs']]],
+  ['rocno_14',['rocNo',['../_enumerations_8cs.html#add38ce70023cf6564cea0e1e17fd6c5cace5a7169037f168bb2716b89281f9c51',1,'Enumerations.cs']]],
+  ['rocyes_15',['rocYes',['../_enumerations_8cs.html#add38ce70023cf6564cea0e1e17fd6c5ca9eeab5091ca98e3944390602dd587048',1,'Enumerations.cs']]],
+  ['rosreestr_16',['Rosreestr',['../_enumerations_8cs.html#a067bd33fa956ac809260fea04b52dc96a0ea7cbe2b1c66a83ddef9b67eb54d36f',1,'Enumerations.cs']]],
+  ['rosybrown_17',['RosyBrown',['../_enumerations_8cs.html#a56128309d85c3a2ffcd1e585e4b82c6da36b966a66d6bd385bc65c4ea063c841c',1,'Enumerations.cs']]],
+  ['royalblue_18',['RoyalBlue',['../_enumerations_8cs.html#a56128309d85c3a2ffcd1e585e4b82c6da3c6a0f673ebc53ef5e2912c59330c802',1,'Enumerations.cs']]],
+  ['rrbuiltincolortable_19',['rrBuiltInColorTable',['../_enumerations_8cs.html#a609d53076ea685b7b2e56241e942d638a1baded2cade4b8fffc87342c1d71be20',1,'Enumerations.cs']]],
+  ['rrcolorscheme_20',['rrColorScheme',['../_enumerations_8cs.html#a609d53076ea685b7b2e56241e942d638ae4c1fe3a5bba602e81012ed9df89a8d6',1,'Enumerations.cs']]],
+  ['rrrgb_21',['rrRGB',['../_enumerations_8cs.html#a609d53076ea685b7b2e56241e942d638aac67c340f1f63d1d97710e418cff0e91',1,'Enumerations.cs']]],
+  ['rrsingleband_22',['rrSingleBand',['../_enumerations_8cs.html#a609d53076ea685b7b2e56241e942d638af3d057735f0050aa5807b65e019dc6ab',1,'Enumerations.cs']]],
+  ['rrunknown_23',['rrUnknown',['../_enumerations_8cs.html#a609d53076ea685b7b2e56241e942d638a507dc22a4a40b0eaedd79f624ccd5387',1,'Enumerations.cs']]]
+];

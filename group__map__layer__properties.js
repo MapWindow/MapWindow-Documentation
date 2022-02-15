@@ -1,0 +1,28 @@
+var group__map__layer__properties =
+[
+    [ "AxMap.get_LayerDescription", "group__map__layer__properties.html#ga2a2f86354461d71a5b8043fd726c2c82", null ],
+    [ "AxMap.get_LayerDynamicVisibility", "group__map__layer__properties.html#gafc162b2ef4f7e4791e751790117d4a78", null ],
+    [ "AxMap.get_LayerFilename", "group__map__layer__properties.html#ga01c41861c5c7528b889837679ba6262e", null ],
+    [ "AxMap.get_LayerKey", "group__map__layer__properties.html#ga047b7cfef3dd0f111b2bb8d931685296", null ],
+    [ "AxMap.get_LayerLabels", "group__map__layer__properties.html#ga72c8e16af904794be39d59d5f21eba87", null ],
+    [ "AxMap.get_LayerMaxVisibleScale", "group__map__layer__properties.html#gaeca084cfd24aba71defda4ec65385116", null ],
+    [ "AxMap.get_LayerMaxVisibleZoom", "group__map__layer__properties.html#ga540d48ffe12d37667d1d5f8276c4ba33", null ],
+    [ "AxMap.get_LayerMinVisibleScale", "group__map__layer__properties.html#ga1f094ae8b0cf747cc95b823afcb404d5", null ],
+    [ "AxMap.get_LayerMinVisibleZoom", "group__map__layer__properties.html#ga7c3c745982f42d325026a093779dca2b", null ],
+    [ "AxMap.get_LayerName", "group__map__layer__properties.html#ga5dff99920f2e225b1ea56bdc0d51d594", null ],
+    [ "AxMap.get_LayerSkipOnSaving", "group__map__layer__properties.html#gab8765d5a914b13a893548716164faf61", null ],
+    [ "AxMap.get_LayerVisible", "group__map__layer__properties.html#gaf8e38d905cd4e9350c6f8897921dec76", null ],
+    [ "AxMap.GetColorScheme", "group__map__layer__properties.html#gad8470295251c762be7874bee4eec1f0e", null ],
+    [ "AxMap.set_LayerDescription", "group__map__layer__properties.html#ga755644d961a2b66a0290b04d97862c77", null ],
+    [ "AxMap.set_LayerDynamicVisibility", "group__map__layer__properties.html#ga650f483738f7b8a1c42793be7f6197c0", null ],
+    [ "AxMap.set_LayerKey", "group__map__layer__properties.html#gaea65abc54c197dd5f43775fbb323d6d4", null ],
+    [ "AxMap.set_LayerLabels", "group__map__layer__properties.html#ga05d1e597110a153ca231ccfcfdcfd1ae", null ],
+    [ "AxMap.set_LayerMaxVisibleScale", "group__map__layer__properties.html#ga2eb26a73d5de10891a553af7155bff20", null ],
+    [ "AxMap.set_LayerMaxVisibleZoom", "group__map__layer__properties.html#ga7a5d852ad8df34308cbb86375c1d3d89", null ],
+    [ "AxMap.set_LayerMinVisibleScale", "group__map__layer__properties.html#gaf872419633b03d254aa87c1ec858dc47", null ],
+    [ "AxMap.set_LayerMinVisibleZoom", "group__map__layer__properties.html#gae6e76e0997afc3cf3d93e0ef06ff592a", null ],
+    [ "AxMap.set_LayerName", "group__map__layer__properties.html#ga73f1f337c8166fee0eb3006894799777", null ],
+    [ "AxMap.set_LayerSkipOnSaving", "group__map__layer__properties.html#ga26d628f62b55427de180560e6242ef88", null ],
+    [ "AxMap.set_LayerVisible", "group__map__layer__properties.html#gaf1a6ccf1e3953b195b045f957fa933be", null ],
+    [ "AxMap.SetImageLayerColorScheme", "group__map__layer__properties.html#ga71a3d94402c15550fe4eff3bd67fd951", null ]
+];

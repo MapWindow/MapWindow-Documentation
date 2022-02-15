@@ -1,0 +1,25 @@
+var class_tin =
+[
+    [ "Close", "class_tin.html#a0576f8cec8f0aebb4883d178a32dff89", null ],
+    [ "CreateNew", "class_tin.html#a54e7082c2bbb5212f04420d4d095c208", null ],
+    [ "CreateTinFromPoints", "class_tin.html#a55f8402e567f56cd723e67476c2a7cf1", null ],
+    [ "get_ErrorMsg", "class_tin.html#ad934b0a1fc078004650dbf9b232364ad", null ],
+    [ "get_IsNDTriangle", "class_tin.html#a92a8b045bb9f7cc3bfa510f19880e1a6", null ],
+    [ "Max", "class_tin.html#a9b92de13d4dd7ebe4cdf7dc9034e2097", null ],
+    [ "max", "class_tin.html#a12776d25216089203c17a5cdefd845d6", null ],
+    [ "Min", "class_tin.html#adfae31dde0d3af6aad6e3590b67e620e", null ],
+    [ "min", "class_tin.html#adbdd9eab3da65a00127a0d4aac8f9106", null ],
+    [ "Open", "class_tin.html#acb2439cc06c8fd3fba7e7fc7ad13fbfd", null ],
+    [ "Save", "class_tin.html#a3d0830dbf66c2ac54636845fe36116fa", null ],
+    [ "Select", "class_tin.html#a234e1aa233f933bfa155beff422d39a1", null ],
+    [ "Triangle", "class_tin.html#a01f3a9d3f3df805924b6db9f4710e742", null ],
+    [ "TriangleNeighbors", "class_tin.html#a9e9985ca537e851a9c1f824b11114a47", null ],
+    [ "Vertex", "class_tin.html#aa1176658c8af06e5f73c968ce776c88b", null ],
+    [ "CdlgFilter", "class_tin.html#a442be089bc35350fdc17ecabb14d0805", null ],
+    [ "Filename", "class_tin.html#a4b2ce631fbc663ec0c800a41880ce9b5", null ],
+    [ "GlobalCallback", "class_tin.html#aad2615d28bc492131d66b36a59fd6147", null ],
+    [ "Key", "class_tin.html#abe54aa4f1bae719808d803873e99e742", null ],
+    [ "LastErrorCode", "class_tin.html#a964fa25d5fd1c106d516c45c47810671", null ],
+    [ "NumTriangles", "class_tin.html#ab06006d079f022f21abea78489cb1979", null ],
+    [ "NumVertices", "class_tin.html#a9b90edf7eafa7b6a2104a455f58c6642", null ]
+];

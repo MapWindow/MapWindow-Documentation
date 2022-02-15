@@ -1,0 +1,26 @@
+var group__shapefile__geoprocessing =
+[
+    [ "Shapefile.AggregateShapes", "group__shapefile__geoprocessing.html#ga9bb33a537cebc17704cd0489b98522e4", null ],
+    [ "Shapefile.AggregateShapesWithStats", "group__shapefile__geoprocessing.html#gaa0514d81d06c2b8088fcef076261b016", null ],
+    [ "Shapefile.BufferByDistance", "group__shapefile__geoprocessing.html#ga4fbc5b1bf2a39438eb0b3dce0d643a48", null ],
+    [ "Shapefile.ClearCachedGeometries", "group__shapefile__geoprocessing.html#gaa7c37c88c285ee2986e7692606b8e760", null ],
+    [ "Shapefile.Clip", "group__shapefile__geoprocessing.html#gab295207daaa202ba12e48a3dc47897b4", null ],
+    [ "Shapefile.Difference", "group__shapefile__geoprocessing.html#ga27ec866a849d74012f0188f575d1ddf3", null ],
+    [ "Shapefile.Dissolve", "group__shapefile__geoprocessing.html#ga91c8732e7901d5f24cc5bd9f843d8e2b", null ],
+    [ "Shapefile.DissolveWithStats", "group__shapefile__geoprocessing.html#ga482edb9a6ed3639481b9b62cd1ac0b7c", null ],
+    [ "Shapefile.ExplodeShapes", "group__shapefile__geoprocessing.html#ga12a88eac4defc290fc1d013460180b59", null ],
+    [ "Shapefile.ExportSelection", "group__shapefile__geoprocessing.html#ga597386bf3937af2400491fbd9dad001d", null ],
+    [ "Shapefile.FixUpShapes", "group__shapefile__geoprocessing.html#ga196e63e19402ef16992fbe99c049d872", null ],
+    [ "Shapefile.GetClosestSnapPosition", "group__shapefile__geoprocessing.html#gabaf11360c2ff962d64310c86caf4cc14", null ],
+    [ "Shapefile.GetIntersection", "group__shapefile__geoprocessing.html#ga6d781f67986f8a380c70762527dd0390", null ],
+    [ "Shapefile.Merge", "group__shapefile__geoprocessing.html#ga6500512f6f09499055abab10fae4ab88", null ],
+    [ "Shapefile.Reproject", "group__shapefile__geoprocessing.html#gaa248de52c40fadf103ce50d3c349d6da", null ],
+    [ "Shapefile.ReprojectInPlace", "group__shapefile__geoprocessing.html#gaab761ef58971c0221ea42fa8122d3e18", null ],
+    [ "Shapefile.Segmentize", "group__shapefile__geoprocessing.html#ga6059ba256f4b8f4af0f0aa45bcf700f3", null ],
+    [ "Shapefile.SelectByShapefile", "group__shapefile__geoprocessing.html#ga34be8c74608c12bcfa0886c284c99833", null ],
+    [ "Shapefile.SimplifyLines", "group__shapefile__geoprocessing.html#gaa7513b511e94648e791e825f11ceaa2a", null ],
+    [ "Shapefile.Sort", "group__shapefile__geoprocessing.html#ga8b1c80f6bc978a62adc8c3083f1e3271", null ],
+    [ "Shapefile.SymmDifference", "group__shapefile__geoprocessing.html#gae5414d8c307a0118341700d2149b93d5", null ],
+    [ "Shapefile.Union", "group__shapefile__geoprocessing.html#ga31aa513785e9cc65904ad88403137466", null ],
+    [ "Shapefile.GeometryEngine", "group__shapefile__geoprocessing.html#ga5edc49c36dff6da55ad24217bde327a8", null ]
+];

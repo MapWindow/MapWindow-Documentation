@@ -1,0 +1,3 @@
+<map id="Tiles" name="Tiles">
+<area shape="rect" id="node1" title="Downloads and displays data from online TMS tile services, like OpenStreetMap." alt="" coords="5,5,184,376"/>
+</map>

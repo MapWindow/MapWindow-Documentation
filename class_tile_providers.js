@@ -1,0 +1,26 @@
+var class_tile_providers =
+[
+    [ "Add", "class_tile_providers.html#abdcf585bfba3167799762158b1fced13", null ],
+    [ "Clear", "class_tile_providers.html#a8b221cf158bd58a93c285e5cd8078fab", null ],
+    [ "get_ErrorMsg", "class_tile_providers.html#a53d11975254ced87b62f682c576efbf0", null ],
+    [ "get_GeographicBounds", "class_tile_providers.html#af9912ec353968ae25bdd64896d32c9e0", null ],
+    [ "get_Id", "class_tile_providers.html#a0bd1b29d9a672f8f2efb6b0fc632b9f9", null ],
+    [ "get_IndexByProvider", "class_tile_providers.html#afd5d8f244e1c3887881c4636ca562fff", null ],
+    [ "get_IndexByProviderId", "class_tile_providers.html#ae1791950d532680e323f3c006e2b9bfe", null ],
+    [ "get_IsCustom", "class_tile_providers.html#a1e8334cf2b6063131f8f61997be166d9", null ],
+    [ "get_Language", "class_tile_providers.html#aef443c8affd418af01c8d39b0a3a67ba", null ],
+    [ "get_MaxZoom", "class_tile_providers.html#ab68e028bb921410aac0f4f3f236351a4", null ],
+    [ "get_MinZoom", "class_tile_providers.html#ab5884e1b80c3412b030c1bb1ae574381", null ],
+    [ "get_Name", "class_tile_providers.html#a5109b3bbbae725ccb3a5fa18457c002e", null ],
+    [ "get_Projection", "class_tile_providers.html#a2baa9c4da5fb8271e4787bb6d30c0fd3", null ],
+    [ "get_UrlPattern", "class_tile_providers.html#af42b6ec761be4b62c0632edd84553a7b", null ],
+    [ "get_Version", "class_tile_providers.html#af99cfac6a0373e3bf08cbf8b15984116", null ],
+    [ "Remove", "class_tile_providers.html#aa1ae9555c8d6216da243c217b68191a0", null ],
+    [ "set_GeographicBounds", "class_tile_providers.html#afa9b8933964c957dc8c4cfca83bdb0de", null ],
+    [ "set_Language", "class_tile_providers.html#a00dce9c17a5bf5a7003e215ff27419dd", null ],
+    [ "set_Name", "class_tile_providers.html#aa8823e392af5812494800bac67cc2f0c", null ],
+    [ "set_Version", "class_tile_providers.html#a2d3a91fe05ebde121195176164c9efb3", null ],
+    [ "Count", "class_tile_providers.html#ae96fe26d7a26292738f277220fae73a3", null ],
+    [ "GlobalCallback", "class_tile_providers.html#a590207c99ae958b3106a732996009729", null ],
+    [ "LastErrorCode", "class_tile_providers.html#ab4b8bfdb111fa303417ec6dfa2d2ddac", null ]
+];

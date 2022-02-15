@@ -1,0 +1,28 @@
+var class_ogr_datasource =
+[
+    [ "Close", "class_ogr_datasource.html#a3e68dc609f730e39277b6b88b47f4a35", null ],
+    [ "CreateLayer", "class_ogr_datasource.html#ab7bba28541e83f353dbadb932c45fd7f", null ],
+    [ "DeleteLayer", "class_ogr_datasource.html#a83b5c311a096f0631fef35bde93458cb", null ],
+    [ "ExecuteSQL", "class_ogr_datasource.html#a5dbf9de82251c4a2a39cbe00f73c2cb9", null ],
+    [ "get_DriverMetadata", "class_ogr_datasource.html#a0e221d078d66e3f7333ee25418133ef5", null ],
+    [ "get_DriverMetadataItem", "class_ogr_datasource.html#a1aba366ca5d8761ec01ea74782ae132c", null ],
+    [ "get_ErrorMsg", "class_ogr_datasource.html#a73d1066651fd9d05de6a6fdc761a2195", null ],
+    [ "GetLayer", "class_ogr_datasource.html#a7576dfcd2fb8d7d10d14315078a54d91", null ],
+    [ "GetLayer2", "class_ogr_datasource.html#a8f60736d0c98e3f1a042d72eba210993", null ],
+    [ "GetLayerByName", "class_ogr_datasource.html#a46225206838093c69540668abc28887c", null ],
+    [ "GetLayerName", "class_ogr_datasource.html#a23bcdd5d570729953e616ec77488a73e", null ],
+    [ "GetSchemas", "class_ogr_datasource.html#ae7073ca1e7d63784e3289776fad6a974", null ],
+    [ "ImportShapefile", "class_ogr_datasource.html#ad426ef7c2279788992fd883442f6b503", null ],
+    [ "LayerIndexByName", "class_ogr_datasource.html#af0ada026c12369518aa4616e448e8386", null ],
+    [ "Open", "class_ogr_datasource.html#a5e2f3a9e4885b0d71978c70583a983d3", null ],
+    [ "Open2", "class_ogr_datasource.html#ab60fff3aaa784fb1e552bbe0cc36a47c", null ],
+    [ "RunQuery", "class_ogr_datasource.html#a035e078df8e7feebe2e23ba1860b8643", null ],
+    [ "TestCapability", "class_ogr_datasource.html#a3c8e8aa8bdd0541fa476cf90f4d95305", null ],
+    [ "DriverMetadataCount", "class_ogr_datasource.html#a6b84377fed7f463443a52f10627da000", null ],
+    [ "DriverName", "class_ogr_datasource.html#a41d579efdf84696148e2c35ec9b5b37e", null ],
+    [ "GdalLastErrorMsg", "class_ogr_datasource.html#aff91b8ed07a19dbee7423270e89b7867", null ],
+    [ "GlobalCallback", "class_ogr_datasource.html#ac08708b177feb37f8249e3cbcae88fb3", null ],
+    [ "Key", "class_ogr_datasource.html#ab0b7826c490fa49b896581cd6f64fddb", null ],
+    [ "LastErrorCode", "class_ogr_datasource.html#aae7749e9129721f168f05728314d20af", null ],
+    [ "LayerCount", "class_ogr_datasource.html#aa59ab4b768bfe32fdcc93848a57231af", null ]
+];
