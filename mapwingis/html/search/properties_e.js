@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['offset_0',['Offset',['../class_gdal_raster_band.html#aea3a9146f33e2ef2168ee5653e28d2c1',1,'GdalRasterBand']]],
+  ['offsetx_1',['OffsetX',['../class_charts.html#aeaa41d72cb66ee90a1dc0e84d313ccd0',1,'Charts.OffsetX()'],['../class_label_category.html#addc7566162b1b0d25ab91ac2f6eb3b54',1,'LabelCategory.OffsetX()'],['../group__labels__positioning.html#ga108d6c585c58718c6d419fb376255dd4',1,'Labels.OffsetX()']]],
+  ['offsetxfield_2',['OffsetXField',['../class_label_category.html#a18faf3d287e167e60c7a37a28dc7e5f8',1,'LabelCategory.OffsetXField()'],['../group__labels__positioning.html#gab48764ed58c4bf405f72942f85a8409a',1,'Labels.OffsetXField()']]],
+  ['offsety_3',['OffsetY',['../class_charts.html#a2429494d02d7bdf7f9cab46d740e2011',1,'Charts.OffsetY()'],['../class_label_category.html#ad93d6d944f1f519e66f306efdf2c34fa',1,'LabelCategory.OffsetY()'],['../group__labels__positioning.html#ga62748ff14ac5fb19eed0df93e7dc4e13',1,'Labels.OffsetY()']]],
+  ['offsetyfield_4',['OffsetYField',['../class_label_category.html#a439833f6377aa68a39fec0263b2197c9',1,'LabelCategory.OffsetYField()'],['../group__labels__positioning.html#gae7ff569fe5186aa60c2dedfc69161661',1,'Labels.OffsetYField()']]],
+  ['ogrinterpretynstringasboolean_5',['OgrInterpretYNStringAsBoolean',['../class_global_settings.html#aeccfa0c4753cca2d2e4cb89d2040c207',1,'GlobalSettings']]],
+  ['ogrlayerforceupdatemode_6',['OgrLayerForceUpdateMode',['../class_global_settings.html#a6984515bc2076cd19e5d5fa9f2c9499d',1,'GlobalSettings']]],
+  ['ogrlayermaxfeaturecount_7',['OgrLayerMaxFeatureCount',['../class_global_settings.html#ad55425992f2e70a6fda68a5ddaf630d7',1,'GlobalSettings']]],
+  ['ogrshareconnection_8',['OgrShareConnection',['../class_global_settings.html#a97de260b83db7881a763bc4bc79f0226',1,'GlobalSettings']]],
+  ['ogrstringencoding_9',['OgrStringEncoding',['../class_global_settings.html#a8e43d0edbcc84438b0688149e69f0b3a',1,'GlobalSettings']]],
+  ['opacity_10',['Opacity',['../class_wms_layer.html#a947c517cfc3a5df78e9a47dbeb59de44',1,'WmsLayer']]],
+  ['options_11',['Options',['../class_labels.html#a6a9a2d73a011b8d7ff7c2e9e5873ca42',1,'Labels']]],
+  ['originaldx_12',['OriginalDX',['../group__image__position.html#gafe502b87ff477467cc3f340729b60a18',1,'Image']]],
+  ['originaldy_13',['OriginalDY',['../group__image__position.html#ga42fe9568dfb2afae60f158e08e207793',1,'Image']]],
+  ['originalheight_14',['OriginalHeight',['../group__image__position.html#ga31cb2a9f389471847ebf04fe0fda9ed0',1,'Image']]],
+  ['originalwidth_15',['OriginalWidth',['../group__image__position.html#ga9d87187e2dbab43c92617bdcfa4f0f60',1,'Image']]],
+  ['originalxllcenter_16',['OriginalXllCenter',['../group__image__position.html#ga190fe986411e5e67c090a643e02c3b6c',1,'Image']]],
+  ['originalyllcenter_17',['OriginalYllCenter',['../group__image__position.html#ga7e086fb9ba7d28d5ee37dbe348e5cb01',1,'Image']]],
+  ['outlinecolor_18',['OutlineColor',['../class_identifier.html#a75e4f0850860f284bc05a17f09e5b198',1,'Identifier']]],
+  ['overridelocalcallback_19',['OverrideLocalCallback',['../class_global_settings.html#a15ebee027f69360add8352e8cb8d4a65',1,'GlobalSettings']]],
+  ['overviewcount_20',['OverviewCount',['../class_gdal_raster_band.html#a5325e53f580acf77624a3812255b69ea',1,'GdalRasterBand']]]
+];

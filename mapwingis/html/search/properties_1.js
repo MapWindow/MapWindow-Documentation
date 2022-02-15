@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['backcolor_0',['BackColor',['../class_ax_map.html#aa6a9d7adba47ecc349c19f14fd471e22',1,'AxMap']]],
+  ['backcolor_1',['backColor',['../class_ax_map.html#a816f3ad926a2518911ef55bcff85e1fc',1,'AxMap']]],
+  ['barheight_2',['BarHeight',['../class_charts.html#a9dbfed7d5787b8a0aa68b3fd5754330b',1,'Charts']]],
+  ['barwidth_3',['BarWidth',['../class_charts.html#a8d25ada36cfe47c86eeac43bd5e47e43',1,'Charts']]],
+  ['baseurl_4',['BaseUrl',['../class_wms_layer.html#aeee6a505240ad688c70c03c742b26a33',1,'WmsLayer']]],
+  ['basicscale_5',['BasicScale',['../group__labels__positioning.html#gadff773d79256616dde76e81d978e9761',1,'Labels']]],
+  ['bearingtype_6',['BearingType',['../class_measuring.html#a45b2ab72ccf6169cbb478a96b0b672f8',1,'Measuring.BearingType()'],['../class_shape_editor.html#aeedc9d61d0f8ac8f84277578f2f35520',1,'ShapeEditor.BearingType()']]],
+  ['bingapikey_7',['BingApiKey',['../class_global_settings.html#a44d880d642bcb49e7358763838dbe58d',1,'GlobalSettings']]],
+  ['blocksizex_8',['BlockSizeX',['../class_gdal_raster_band.html#a82a4763f4a4d0a59192bc7f66d2c3826',1,'GdalRasterBand']]],
+  ['blocksizey_9',['BlockSizeY',['../class_gdal_raster_band.html#a6a785455447a71582a33ef56da8c97b1',1,'GdalRasterBand']]],
+  ['bluebandindex_10',['BlueBandIndex',['../group__image__newmembers.html#ga494a88d6d40c900eb2b3843d7565d7fd',1,'Image']]],
+  ['boundingbox_11',['BoundingBox',['../class_wms_layer.html#aa7a0423b0f28b43ae14587c5ee8e5765',1,'WmsLayer']]],
+  ['brightness_12',['Brightness',['../group__image__newmembers.html#ga38f6f9399d6698f44b75ef05eb51a0ba',1,'Image.Brightness()'],['../class_wms_layer.html#a34ed92fc1ca56694d32706a52cf3cc90',1,'WmsLayer.Brightness()']]],
+  ['bufferoffsetx_13',['BufferOffsetX',['../group__image__newmembers.html#ga1b4b9e7a26e1271d3fbcdfddda043695',1,'Image']]],
+  ['bufferoffsety_14',['BufferOffsetY',['../group__image__newmembers.html#ga5d6fe2003d96d62f3c137e588ab11ccc',1,'Image']]],
+  ['buffersize_15',['BufferSize',['../group__image__gdal.html#ga597b518eda70c2172d9ca29073ab9bc6',1,'Image']]]
+];
