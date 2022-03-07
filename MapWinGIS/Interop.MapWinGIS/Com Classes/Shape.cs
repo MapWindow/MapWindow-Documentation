@@ -1,4 +1,5 @@
 ﻿
+// ReSharper disable ArrangeAccessorOwnerBody
 #if nsp
 namespace MapWinGIS
 {
@@ -65,11 +66,11 @@ namespace MapWinGIS
         /// <summary>
         /// Builds a buffer of the specified distance around the shape.
         /// </summary>
-        /// <param name="Distance">The buffer distance in map units.</param>
+        /// <param name="distance">The buffer distance in map units.</param>
         /// <param name="nQuadSegments">The number of segments use to approximate a circle buffer.</param>
         /// <returns>The reference to the resulting shape which holds the buffer or NULL reference on failure.</returns>
         /// \new48 Added in version 4.8
-        public Shape Buffer(double Distance, int nQuadSegments)
+        public Shape Buffer(double distance, int nQuadSegments)
         {
             throw new NotImplementedException();
         }
@@ -103,11 +104,11 @@ namespace MapWinGIS
         /// . 
         /// Note that clClip operation will yield the same result as intersection.
         /// </remarks>
-        /// <param name="Shape">The second shape for the operation.</param>
-        /// <param name="Operation">The operation to perform.</param>
+        /// <param name="shape">The second shape for the operation.</param>
+        /// <param name="operation">The operation to perform.</param>
         /// <returns>The reference to the resulting shape or NULL reference on failure.</returns>
         /// \new48 Added in version 4.8
-        public Shape Clip(Shape Shape, tkClipOperation Operation)
+        public Shape Clip(Shape shape, tkClipOperation operation)
         {
             throw new NotImplementedException();
         }
@@ -127,10 +128,10 @@ namespace MapWinGIS
         /// <summary>
         /// Tests a "contains" relation between 2 shapes.
         /// </summary>
-        /// <param name="Shape">The second shape.</param>
+        /// <param name="shape">The second shape.</param>
         /// <returns>True if this shape contains the second shape and false if it is not.</returns>
         /// \new48 Added in version 4.8
-        public bool Contains(Shape Shape)
+        public bool Contains(Shape shape)
         {
             throw new NotImplementedException();
         }
@@ -148,9 +149,9 @@ namespace MapWinGIS
         /// <summary>
         /// Creates a new shape of the specified type. 
         /// </summary>
-        /// <param name="ShpType">The type of the shape to be created.</param>
+        /// <param name="shpType">The type of the shape to be created.</param>
         /// <returns>A boolean value representing the success or failure of creating the new shape.</returns>
-        public bool Create(ShpfileType ShpType)
+        public bool Create(ShpfileType shpType)
         {
             throw new NotImplementedException();
         }
@@ -159,9 +160,9 @@ namespace MapWinGIS
         /// Initializes the Shape object and fills it with the geometry defined by the input string. </summary>
         /// <remarks>The input string should be in the 
         /// serialized string format as produced by the function Shape.SerializeToString. </remarks>
-        /// <param name="Serialized">The serialized string to load.</param>
+        /// <param name="serialized">The serialized string to load.</param>
         /// <returns>A boolean value representing the success or failure of loading the shape.</returns>
-        public bool CreateFromString(string Serialized)
+        public bool CreateFromString(string serialized)
         {
             throw new NotImplementedException();
         }
@@ -169,10 +170,10 @@ namespace MapWinGIS
         /// <summary>
         /// Tests a "crosses" relation between 2 shapes.
         /// </summary>
-        /// <param name="Shape">The second shape.</param>
+        /// <param name="shape">The second shape.</param>
         /// <returns>True if this shape crosses the second shape and false if it is not.</returns>
         /// \new48 Added in version 4.8
-        public bool Crosses(Shape Shape)
+        public bool Crosses(Shape shape)
         {
             throw new NotImplementedException();
         }
@@ -180,9 +181,9 @@ namespace MapWinGIS
         /// <summary>
         /// Deletes a part from a shape. 
         /// </summary>
-        /// <param name="PartIndex">The index of the part to be deleted.</param>
+        /// <param name="partIndex">The index of the part to be deleted.</param>
         /// <returns>A boolean value representing the success or failure of deleting the part.</returns>
-        public bool DeletePart(int PartIndex)
+        public bool DeletePart(int partIndex)
         {
             throw new NotImplementedException();
         }
@@ -190,9 +191,9 @@ namespace MapWinGIS
         /// <summary>
         /// Deletes a point in the shape.
         /// </summary>
-        /// <param name="PointIndex">The index of the point in the shape to be deleted.</param>
+        /// <param name="pointIndex">The index of the point in the shape to be deleted.</param>
         /// <returns>A boolean value representing the success or failure of deleting the point in the shape. </returns>
-        public bool DeletePoint(int PointIndex)
+        public bool DeletePoint(int pointIndex)
         {
             throw new NotImplementedException();
         }
@@ -200,10 +201,10 @@ namespace MapWinGIS
         /// <summary>
         /// Tests a "disjoint" relation between 2 shapes.
         /// </summary>
-        /// <param name="Shape">The second shape.</param>
+        /// <param name="shape">The second shape.</param>
         /// <returns>True if this shape is disjoint from the second shape and false if it is not.</returns>
         /// \new48 Added in version 4.8
-        public bool Disjoint(Shape Shape)
+        public bool Disjoint(Shape shape)
         {
             throw new NotImplementedException();
         }
@@ -233,10 +234,10 @@ namespace MapWinGIS
         /// <summary>
         /// Calculates the distance between 2 shapes.
         /// </summary>
-        /// <param name="Shape">The second shape.</param>
+        /// <param name="shape">The second shape.</param>
         /// <returns>The calculated distance.</returns>
         /// \new48 Added in version 4.8
-        public double Distance(Shape Shape)
+        public double Distance(Shape shape)
         {
             throw new NotImplementedException();
         }
@@ -244,10 +245,10 @@ namespace MapWinGIS
         /// <summary>
         /// Tests an "equals" relation between 2 shapes.
         /// </summary>
-        /// <param name="Shape">The second shape.</param>
+        /// <param name="shape">The second shape.</param>
         /// <returns>True if this shape is equal to the second shape and false if it is not.</returns>
         /// \new48 Added in version 4.8
-        public bool Equals(Shape Shape)
+        public bool Equals(Shape shape)
         {
             throw new NotImplementedException();
         }
@@ -258,10 +259,10 @@ namespace MapWinGIS
         /// </summary>
         /// <remarks>Holes of the polygon will not be considered as separate shapes. However
         /// if a polygon holds several not nested rings they will be passed to output as individual polygons.</remarks>
-        /// <param name="Results">The array of Shape type with the resulting shapes.</param>
+        /// <param name="results">The array of Shape type with the resulting shapes.</param>
         /// <returns>The on success and false otherwise.</returns>
         /// \new48 Added in version 4.8
-        public bool Explode(ref object Results)
+        public bool Explode(ref object results)
         {
             throw new NotImplementedException();
         }
@@ -315,11 +316,11 @@ namespace MapWinGIS
         /// <remarks>In comparison with Shape.Clip this function returns all the results of intersection
         /// even if they have different shape type. For example the intersection of 2 polygons can hold:
         /// new polygons, polylines and points simultaneously.</remarks>
-        /// <param name="Shape">The second shape.</param>
-        /// <param name="Results">The array of Shape type with the results of intersection.</param>
+        /// <param name="shape">The second shape.</param>
+        /// <param name="results">The array of Shape type with the results of intersection.</param>
         /// <returns>True in case at least one shape is returned and false otherwise.</returns>
         /// \new48 Added in version 4.8
-        public bool GetIntersection(Shape Shape, ref object Results)
+        public bool GetIntersection(Shape shape, ref object results)
         {
             throw new NotImplementedException();
         }
@@ -353,10 +354,10 @@ namespace MapWinGIS
         /// are filled. Parts with points ordered in a counter-clockwise direction are cut out. Only clockwise parts should be used to 
         /// define the outer-most regions of a shape.
         /// </remarks>
-        /// <param name="PointIndex">The index of the first point in the part to be inserted.</param>
-        /// <param name="PartIndex">The part index desired. This value may be modified if it is not possible to use the desired part index.</param>
+        /// <param name="pointIndex">The index of the first point in the part to be inserted.</param>
+        /// <param name="partIndex">The part index desired. This value may be modified if it is not possible to use the desired part index.</param>
         /// <returns>A boolean value representing the success or failure of inserting the part into the shape.</returns>
-        public bool InsertPart(int PointIndex, ref int PartIndex)
+        public bool InsertPart(int pointIndex, ref int partIndex)
         {
             throw new NotImplementedException();
         }
@@ -364,11 +365,11 @@ namespace MapWinGIS
         /// <summary>
         /// Inserts the specified point object into the shape using the desired point index if possible.
         /// </summary>
-        /// <param name="NewPoint">The point object to be inserted into the shape. </param>
-        /// <param name="PointIndex">Reference parameter. The index where the point will be placed if possible. If the desired index 
+        /// <param name="newPoint">The point object to be inserted into the shape. </param>
+        /// <param name="pointIndex">Reference parameter. The index where the point will be placed if possible. If the desired index 
         /// cannot be used, the actual index will be returned.</param>
         /// <returns>A boolean value representing the success or failure of inserting the point into the shape.</returns>
-        public bool InsertPoint(Point NewPoint, ref int PointIndex)
+        public bool InsertPoint(Point newPoint, ref int pointIndex)
         {
             throw new NotImplementedException();
         }
@@ -389,10 +390,10 @@ namespace MapWinGIS
         /// <summary>
         /// Tests an "intersects" relation between 2 shapes.
         /// </summary>
-        /// <param name="Shape">The second shape.</param>
+        /// <param name="shape">The second shape.</param>
         /// <returns>True if this shape intersects the second shape and false if it is not.</returns>
         /// \new48 Added in version 4.8
-        public bool Intersects(Shape Shape)
+        public bool Intersects(Shape shape)
         {
             throw new NotImplementedException();
         }
@@ -462,10 +463,10 @@ namespace MapWinGIS
         /// <summary>
         /// Tests an "overlaps" relation between 2 shapes.
         /// </summary>
-        /// <param name="Shape">The second shape.</param>
+        /// <param name="shape">The second shape.</param>
         /// <returns>True if this shape overlaps the second shape and false if it is not.</returns>
         /// \new48 Added in version 4.8
-        public bool Overlaps(Shape Shape)
+        public bool Overlaps(Shape shape)
         {
             throw new NotImplementedException();
         }
@@ -495,11 +496,11 @@ namespace MapWinGIS
         /// Tests the specified relation between 2 shapes. 
         /// </summary>
         /// <remarks>This method works the same as individual overloads like Shape.Intersects, Shape.Overlaps, etc.</remarks>
-        /// <param name="Shape">The second shape.</param>
-        /// <param name="Relation">The relation to test.</param>
+        /// <param name="shape">The second shape.</param>
+        /// <param name="relation">The relation to test.</param>
         /// <returns>True in case this relation is actually takes place and false if it is not.</returns>
         /// \new48 Added in version 4.8
-        public bool Relates(Shape Shape, tkSpatialRelation Relation)
+        public bool Relates(Shape shape, tkSpatialRelation relation)
         {
             throw new NotImplementedException();
         }
@@ -510,10 +511,10 @@ namespace MapWinGIS
         /// <remarks>The property can be useful to to ensure proper topology for polygons.
         /// The points of outer ring of polygon must have clockwise order, while the points of its holes
         /// must be specified in counter-clockwise order.</remarks>
-        /// <param name="PartIndex">The index of part to reverse the order of points.</param>
+        /// <param name="partIndex">The index of part to reverse the order of points.</param>
         /// <returns>True on success and false otherwise.</returns>
         /// \new48 Added in version 4.8
-        public bool ReversePointsOrder(int PartIndex)
+        public bool ReversePointsOrder(int partIndex)
         {
             throw new NotImplementedException();
         }
@@ -542,10 +543,10 @@ namespace MapWinGIS
         /// <summary>
         /// Tests a "touches" relation between 2 shapes.
         /// </summary>
-        /// <param name="Shape">The second shape.</param>
+        /// <param name="shape">The second shape.</param>
         /// <returns>True if this shape touches the second shape and false if it is not.</returns>
         /// \new48 Added in version 4.8
-        public bool Touches(Shape Shape)
+        public bool Touches(Shape shape)
         {
             throw new NotImplementedException();
         }
@@ -553,10 +554,10 @@ namespace MapWinGIS
         /// <summary>
         /// Tests a "within" relation between 2 shapes.
         /// </summary>
-        /// <param name="Shape">The second shape.</param>
+        /// <param name="shape">The second shape.</param>
         /// <returns>True if this shape lies within the second shape and false if it is not.</returns>
         /// \new48 Added in version 4.8
-        public bool Within(Shape Shape)
+        public bool Within(Shape shape)
         {
             throw new NotImplementedException();
         }
@@ -564,10 +565,10 @@ namespace MapWinGIS
         /// <summary>
         /// Returns the index of the last point in the part.
         /// </summary>
-        /// <param name="PartIndex">The index of the part.</param>
+        /// <param name="partIndex">The index of the part.</param>
         /// <returns>The index of the point.</returns>
         /// \new48 Added in version 4.8
-        public int get_EndOfPart(int PartIndex)
+        public int get_EndOfPart(int partIndex)
         {
             throw new NotImplementedException();
         }
@@ -575,9 +576,9 @@ namespace MapWinGIS
         /// <summary>
         /// Retrieves the error message associated with the specified error code. 
         /// </summary>
-        /// <param name="ErrorCode">The error code for which the error message is required.</param>
+        /// <param name="errorCode">The error code for which the error message is required.</param>
         /// <returns>The error message description for the specified error code.</returns>
-        public string get_ErrorMsg(int ErrorCode)
+        public string get_ErrorMsg(int errorCode)
         {
             throw new NotImplementedException();
         }
@@ -585,9 +586,9 @@ namespace MapWinGIS
         /// <summary>
         /// Gets or sets the first point index in the specified part. 
         /// </summary>
-        /// <param name="PartIndex">The index of the part for which the first point index is required.</param>
+        /// <param name="partIndex">The index of the part for which the first point index is required.</param>
         /// <returns>The index of the first point in the specified part.</returns>
-        public int get_Part(int PartIndex)
+        public int get_Part(int partIndex)
         {
             throw new NotImplementedException();
         }
@@ -596,10 +597,10 @@ namespace MapWinGIS
         /// Returns part of the shape as a new shape.
         /// </summary>
         /// <remarks>The initial shape and the returned one doesn't shape any common memory.</remarks>
-        /// <param name="PartIndex">The index of part to return.</param>
+        /// <param name="partIndex">The index of part to return.</param>
         /// <returns>The reference to the new shape and NULL reference on failure.</returns>
         /// \new48 Added in version 4.8
-        public Shape get_PartAsShape(int PartIndex)
+        public Shape get_PartAsShape(int partIndex)
         {
             throw new NotImplementedException();
         }
@@ -607,10 +608,10 @@ namespace MapWinGIS
         /// <summary>
         /// Returns a boolean value which indicates whether points of the shape part are placed in the clockwise order.
         /// </summary>
-        /// <param name="PartIndex">The index of part.</param>
+        /// <param name="partIndex">The index of part.</param>
         /// <returns>True for the clockwise order, and false for counter-clockwise.</returns>
         /// \new48 Added in version 4.8
-        public bool get_PartIsClockWise(int PartIndex)
+        public bool get_PartIsClockWise(int partIndex)
         {
             throw new NotImplementedException();
         }
@@ -618,9 +619,9 @@ namespace MapWinGIS
         /// <summary>
         /// Gets or sets the specified point in the shape. 
         /// </summary>
-        /// <param name="PointIndex">The index of the point which is to be accessed in the shape.</param>
+        /// <param name="pointIndex">The index of the point which is to be accessed in the shape.</param>
         /// <returns>The specified point in the shape.</returns>
-        public Point get_Point(int PointIndex)
+        public Point get_Point(int pointIndex)
         {
             throw new NotImplementedException();
         }
@@ -630,12 +631,12 @@ namespace MapWinGIS
         /// </summary>
         /// <remarks>It's highly recommended to use this property rather than Shape.get_Point,
         /// for considerable performance boost when Shapefile.FastMode is set to true.</remarks>
-        /// <param name="PointIndex">The index of point.</param>
+        /// <param name="pointIndex">The index of point.</param>
         /// <param name="x">The x coordinate.</param>
         /// <param name="y">The y coordinate.</param>
         /// <returns>True on successful retrieval and false on wrong index of point.</returns>
         /// \new48 Added in version 4.8
-        public bool get_XY(int PointIndex, ref double x, ref double y)
+        public bool get_XY(int pointIndex, ref double x, ref double y)
         {
             throw new NotImplementedException();
         }
@@ -643,12 +644,11 @@ namespace MapWinGIS
         /// <summary>
         /// Gets the number of points contained in the shape. 
         /// </summary>
-        /// <remarks>There is a confusion with name casing for this property. 
-        /// It's actually spelled 'get_NumPoints' in the source code. 
-        /// However because of the known bug in PIA generation process the property 
-        /// ended up spelled 'get_numPoints' in earlier version of PIAs. After some hesitation we decided to keep it that way. 
-        /// See description of the bug here: http://stackoverflow.com/questions/3179676/c-exposed-property-for-com-in-idl-is-showing-as-lower-case-all-of-a-sudden </remarks>
-        public int numPoints
+        /// <remarks>There was a confusion with name casing for this property.
+        /// Since version 5.4 this is corrected.
+        ///  </remarks>
+        /// \new54 Updated in version 5.4
+        public int NumPoints
         {
             get { throw new NotImplementedException(); }
         }
@@ -658,12 +658,12 @@ namespace MapWinGIS
         /// </summary>
         /// <remarks>It's highly recommended to use this property rather than Shape.get_Point,
         /// for considerable performance boost when Shapefile.FastMode is set to true.</remarks>
-        /// <param name="PointIndex">The index of point.</param>
+        /// <param name="pointIndex">The index of point.</param>
         /// <param name="x">The x coordinate.</param>
         /// <param name="y">The y coordinate.</param>
         /// <returns>True on success and false on the invalid index.</returns>
         /// \new48 Added in version 4.8
-        public bool put_XY(int PointIndex, double x, double y)
+        public bool put_XY(int pointIndex, double x, double y)
         {
             throw new NotImplementedException();
         }
@@ -671,9 +671,9 @@ namespace MapWinGIS
         /// <summary>
         /// Sets the index of the first point in part.
         /// </summary>
-        /// <param name="PartIndex">The index of part.</param>
+        /// <param name="partIndex">The index of part.</param>
         /// <param name="pVal">The index of point.</param>
-        public void set_Part(int PartIndex, int pVal)
+        public void set_Part(int partIndex, int pVal)
         {
             throw new NotImplementedException();
         }
@@ -681,9 +681,9 @@ namespace MapWinGIS
         /// <summary>
         /// Replaces the point with the specified index with new one.
         /// </summary>
-        /// <param name="PointIndex">The index of point to replace.</param>
+        /// <param name="pointIndex">The index of point to replace.</param>
         /// <param name="pVal">The new point.</param>
-        public void set_Point(int PointIndex, Point pVal)
+        public void set_Point(int pointIndex, Point pVal)
         {
             throw new NotImplementedException();
         }
@@ -717,10 +717,10 @@ namespace MapWinGIS
         /// <summary>
         /// Imports shape data from WKT format.
         /// </summary>
-        /// <param name="Serialized">Shape data in WKT format.</param>
+        /// <param name="serialized">Shape data in WKT format.</param>
         /// <returns>True on success and false otherwise.</returns>
         /// \new491 Added in version 4.9.1
-        public bool ImportFromWKT(string Serialized)
+        public bool ImportFromWKT(string serialized)
         {
             throw new NotImplementedException();
         }
@@ -741,7 +741,9 @@ namespace MapWinGIS
         /// <param name="sourceShape">Source shape to copy from.</param>
         /// <returns>True on success.</returns>
         /// \new491 Added in version 4.9.1
+#pragma warning disable CS0436 // Type conflicts with imported type
         public bool CopyFrom(Shape sourceShape)
+#pragma warning restore CS0436 // Type conflicts with imported type
         {
             throw new NotImplementedException();
         }
@@ -749,11 +751,11 @@ namespace MapWinGIS
         /// <summary>
         /// Gets M value for specified point.
         /// </summary>
-        /// <param name="PointIndex">Index of point.</param>
-        /// <param name="M">M value.</param>
+        /// <param name="pointIndex">Index of point.</param>
+        /// <param name="m">M value.</param>
         /// <returns>True in case there are M values for current shape type.</returns>
         /// \new491 Added in version 4.9.1
-        public bool get_M(int PointIndex, out double M)
+        public bool get_M(int pointIndex, out double m)
         {
             throw new NotImplementedException();
         }
@@ -761,11 +763,11 @@ namespace MapWinGIS
         /// <summary>
         /// Gets M value for specified point.
         /// </summary>
-        /// <param name="PointIndex">Index of point.</param>
-        /// <param name="Z">Z value.</param>
+        /// <param name="pointIndex">Index of point.</param>
+        /// <param name="z">Z value.</param>
         /// <returns>True in case there are Z values for current shape type.</returns>
         /// \new491 Added in version 4.9.1
-        public bool get_Z(int PointIndex, out double Z)
+        public bool get_Z(int pointIndex, out double z)
         {
             throw new NotImplementedException();
         }
@@ -773,11 +775,11 @@ namespace MapWinGIS
         /// <summary>
         /// Puts M value for specified point.
         /// </summary>
-        /// <param name="PointIndex">Index of point.</param>
-        /// <param name="M">M value.</param>
+        /// <param name="pointIndex">Index of point.</param>
+        /// <param name="m">M value.</param>
         /// <returns>True on success.</returns>
         /// \new491 Added in version 4.9.1
-        public bool put_M(int PointIndex, double M)
+        public bool put_M(int pointIndex, double m)
         {
             throw new NotImplementedException();
         }
@@ -785,11 +787,11 @@ namespace MapWinGIS
         /// <summary>
         /// Puts Z value for specified point.
         /// </summary>
-        /// <param name="PointIndex">Index of point.</param>
-        /// <param name="Z">Z value.</param>
+        /// <param name="pointIndex">Index of point.</param>
+        /// <param name="z">Z value.</param>
         /// <returns>True on success.</returns>
         /// \new491 Added in version 4.9.1
-        public bool put_Z(int PointIndex, double Z)
+        public bool put_Z(int pointIndex, double z)
         {
             throw new NotImplementedException();
         }
@@ -797,7 +799,7 @@ namespace MapWinGIS
         /// <summary>
         /// Returns a new shape which constitutes a buffer around original one.
         /// </summary>
-        /// <param name="Distance">Buffer width (same units as shape coordinates are set with).</param>
+        /// <param name="distance">Buffer width (same units as shape coordinates are set with).</param>
         /// <param name="numSegments">Number of segments to approximate curves.</param>
         /// <param name="singleSided">True if buffer if single sided buffer is needed (works for polylines only).</param>
         /// <param name="capStyle">Type of caps.</param>
@@ -805,7 +807,7 @@ namespace MapWinGIS
         /// <param name="mitreLimit">Mitre limit.</param>
         /// <returns>New buffered shape on success or null on failure.</returns>
         /// \new493 Added in version 4.9.3
-        public Shape BufferWithParams(double Distance, int numSegments = 30, bool singleSided = false, tkBufferCap capStyle = tkBufferCap.bcROUND, tkBufferJoin joinStyle = tkBufferJoin.bjROUND, double mitreLimit = 5)
+        public Shape BufferWithParams(double distance, int numSegments = 30, bool singleSided = false, tkBufferCap capStyle = tkBufferCap.bcROUND, tkBufferJoin joinStyle = tkBufferJoin.bjROUND, double mitreLimit = 5)
         {
             throw new NotImplementedException();
         }
@@ -837,10 +839,10 @@ namespace MapWinGIS
         /// Splits shape with a provided polyline.
         /// </summary>
         /// <param name="polyline">Polyline shape to split with.</param>
-        /// <param name="Results">An array of Shape type.</param>
+        /// <param name="results">An array of Shape type.</param>
         /// <returns>True on success.</returns>
         /// \new493 Added in version 4.9.3
-        public bool SplitByPolyline(Shape polyline, ref object Results)
+        public bool SplitByPolyline(Shape polyline, ref object results)
         {
             throw new NotImplementedException();
         }
@@ -900,7 +902,7 @@ namespace MapWinGIS
         /// \see Utils.LineProjectDistanceTo
         /// 
         /// \new500 Added in version 5.0.0
-        public Double ProjectDistanceTo(Shape referenceShape)
+        public double ProjectDistanceTo(Shape referenceShape)
         {
             throw new NotImplementedException();
         }
