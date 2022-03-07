@@ -9,5 +9,6 @@ var searchData=
   ['new_20api_204_2e9_2e5_6',['New API 4.9.5',['../newpage495.html',1,'']]],
   ['new_20api_205_2e0_7',['New API 5.0',['../newpage500.html',1,'']]],
   ['new_20api_205_2e1_8',['New API 5.1',['../newpage510.html',1,'']]],
-  ['new_20api_205_2e2_9',['New API 5.2',['../newpage52.html',1,'']]]
+  ['new_20api_205_2e2_9',['New API 5.2',['../newpage52.html',1,'']]],
+  ['new_20api_205_2e4_10',['New API 5.4',['../newpage54.html',1,'']]]
 ];

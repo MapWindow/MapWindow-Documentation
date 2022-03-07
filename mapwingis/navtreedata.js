@@ -81,6 +81,7 @@ var NAVTREE =
     [ "New API 5.2", "newpage52.html", null ],
     [ "New API 4.9.4", "newpage494.html", null ],
     [ "New API 5.0", "newpage500.html", null ],
+    [ "New API 5.4", "newpage54.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -116,13 +117,13 @@ var NAVTREEINDEX =
 "_known_01extents_8cs.html#a3f4d5ea0773503afde5c48a24b1068fea66891dbdb84c28bddd7f11ca18b6bdd5",
 "class_ax_map___deprecated.html#a4c4475be12161f073792effd391e98bf",
 "class_file_manager.html#a3a5293f9cb6526e28cafbff1b2cff42c",
-"class_grid.html#ac20394e557d45cbd56c120b93d9d9a7a",
-"class_ogr_layer.html#a0f2bc33d2a5d54306f76e68e39635e9e",
-"class_shape_editor.html#aedab6e036fc18e1183d4527c9d6393bb",
-"class_tiles.html#a84eb2bdadde8549a9e9c5190ff05b052",
-"functions_prop_o.html",
-"group__labels__visualization.html#gae82a42eaf10e8065406ed8a4330bf49d",
-"group__ogrlayer__editing.html#gaeab4d012f5ca48fd9b1eebf7fea0f17c"
+"class_grid.html#ab56dcb93a0e056e8b0ae6cafdcb5c701",
+"class_ogr_layer.html#a0971f8ca8f5313f472fba21fce39469d",
+"class_shape_editor.html#aed68fdbc6c751fed2bd44ee8a9009a18",
+"class_tiles.html#a80d302016748f4f6dfebe433c41ee415",
+"functions_prop_n.html",
+"group__labels__visualization.html#gae7ab5d4e1da115a7cd4d7e76dda8f9c0",
+"group__ogrlayer__editing.html#gae276464b72c07572fa53b726aea2608d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
