@@ -491,13 +491,13 @@ Properties</h2></td></tr>
 <li>true: MapWinGIS doesn't recalculate extents of the shapes which leads to faster drawing but also makes a developer responsible for updating the extents of shapes in the due time. To do it one need to call <a class="el" href="group__shapefile__optimizations.html#gab6af6c3c5ec80900c2ce18978fd944be" title="Refreshes the extents of the particular shape in the shapefile.">Shapefile.RefreshShapeExtents</a> after each editing operation. Otherwise there is a chance that old extents of the shape may lie outside the visible area of the map and the shape won't be displayed.<br  />
 </li>
 </ul>
-<p>When <a class="el" href="group__shapefile__optimizations.html#ga2d6959aee84a49fc901f3ab05e100180" title="Gets or sets the value which indicates whether fast mode will be used for the shapefile.">Shapefile.FastMode</a> is turned on the extents are cached automatically in spite of this property. Also the extents will be automatically refreshed after <a class="el" href="class_shape.html#ae05bd360c686e5b7dc3191935ec4143b" title="Sets the coordinates of the specified point.">Shape.put_XY</a> call. However <a class="el" href="class_shape.html#a3a054db4525078b9d344922d7a33f97a" title="Gets or sets the specified point in the shape.">Shape.get_Point()</a>.x = [value] call will not be tracked. Therefore <a class="el" href="group__shapefile__optimizations.html#gab6af6c3c5ec80900c2ce18978fd944be" title="Refreshes the extents of the particular shape in the shapefile.">Shapefile.RefreshShapeExtents</a> will still be needed.<br  />
+<p>When <a class="el" href="group__shapefile__optimizations.html#ga2d6959aee84a49fc901f3ab05e100180" title="Gets or sets the value which indicates whether fast mode will be used for the shapefile.">Shapefile.FastMode</a> is turned on the extents are cached automatically in spite of this property. Also the extents will be automatically refreshed after <a class="el" href="class_shape.html#adc45ac9fa47da9c55f2cb92fd6b71f51" title="Sets the coordinates of the specified point.">Shape.put_XY</a> call. However <a class="el" href="class_shape.html#a0892bc1e623f25b77d07c2ebd834c76a" title="Gets or sets the specified point in the shape.">Shape.get_Point()</a>.x = [value] call will not be tracked. Therefore <a class="el" href="group__shapefile__optimizations.html#gab6af6c3c5ec80900c2ce18978fd944be" title="Refreshes the extents of the particular shape in the shapefile.">Shapefile.RefreshShapeExtents</a> will still be needed.<br  />
  To avoid confusion use the following recommendation:</p><ol type="1">
 <li>If you work with small shapefile and performance isn't a problem, set this property to false.<br  />
 <br  />
 </li>
 <li>If the performance is an issue:<ul>
-<li>if you write a new code, set this property to true (as well as <a class="el" href="group__shapefile__optimizations.html#ga2d6959aee84a49fc901f3ab05e100180" title="Gets or sets the value which indicates whether fast mode will be used for the shapefile.">Shapefile.FastMode</a>), but assign new coordinates to the points by calling <a class="el" href="class_shape.html#ae05bd360c686e5b7dc3191935ec4143b" title="Sets the coordinates of the specified point.">Shape.put_XY</a> only;</li>
+<li>if you write a new code, set this property to true (as well as <a class="el" href="group__shapefile__optimizations.html#ga2d6959aee84a49fc901f3ab05e100180" title="Gets or sets the value which indicates whether fast mode will be used for the shapefile.">Shapefile.FastMode</a>), but assign new coordinates to the points by calling <a class="el" href="class_shape.html#adc45ac9fa47da9c55f2cb92fd6b71f51" title="Sets the coordinates of the specified point.">Shape.put_XY</a> only;</li>
 <li>if you are bound to the exiting code with Shape.get_Point.x = [value] calls, set this property to true but call <a class="el" href="group__shapefile__optimizations.html#gab6af6c3c5ec80900c2ce18978fd944be" title="Refreshes the extents of the particular shape in the shapefile.">Shapefile.RefreshShapeExtents</a> after the editing operations.</li>
 </ul>
 </li>
@@ -564,7 +564,7 @@ Properties</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 3 2022 07:24:02 for MapWinGIS by 
+    <li class="footer">Generated on Mon Mar 7 2022 11:12:51 for MapWinGIS by 
 		<a href="https://www.doxygen.org/index.html">
 			<img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/>
 		</a> 1.9.3 

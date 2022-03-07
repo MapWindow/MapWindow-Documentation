@@ -363,11 +363,12 @@ var searchData=
   ['numoverviews_360',['NumOverviews',['../group__image__gdal.html#ga086954c7467452b43920123b44f01328',1,'Image']]],
   ['numparameters_361',['NumParameters',['../class_function.html#a181cb518a08ef089b96e5f8cc069f273',1,'Function']]],
   ['numparts_362',['NumParts',['../class_shape.html#ad773494ad560846d072bb20bcf9ae16e',1,'Shape']]],
-  ['numpoints_363',['numPoints',['../class_shape.html#af196c875556f1327cfadd5a3effa6ce4',1,'Shape.numPoints()'],['../class_shape_editor.html#aa405859600071e7f7f2c32d884a02ca9',1,'ShapeEditor.numPoints()']]],
-  ['numrows_364',['NumRows',['../class_table.html#abeccd4b4df12561cc536e95d20e3cd31',1,'Table']]],
-  ['numselected_365',['NumSelected',['../group__shapefile__selection.html#ga1eb35e5710e3d9fc85bd7ee07c9e4460',1,'Shapefile']]],
-  ['numshapes_366',['NumShapes',['../class_shapefile.html#a8c16abfdf418de3ae93475953958e907',1,'Shapefile']]],
-  ['numsupportedfunctions_367',['NumSupportedFunctions',['../class_expression.html#ad6c90e1422dedff51e8d0e9c27431fef',1,'Expression']]],
-  ['numtriangles_368',['NumTriangles',['../class_tin.html#ab06006d079f022f21abea78489cb1979',1,'Tin']]],
-  ['numvertices_369',['NumVertices',['../class_tin.html#a9b90edf7eafa7b6a2104a455f58c6642',1,'Tin']]]
+  ['numpoints_363',['NumPoints',['../class_shape.html#af8fec12ef3300b63bca7dd9dea9da073',1,'Shape']]],
+  ['numpoints_364',['numPoints',['../class_shape_editor.html#aa405859600071e7f7f2c32d884a02ca9',1,'ShapeEditor']]],
+  ['numrows_365',['NumRows',['../class_table.html#abeccd4b4df12561cc536e95d20e3cd31',1,'Table']]],
+  ['numselected_366',['NumSelected',['../group__shapefile__selection.html#ga1eb35e5710e3d9fc85bd7ee07c9e4460',1,'Shapefile']]],
+  ['numshapes_367',['NumShapes',['../class_shapefile.html#a8c16abfdf418de3ae93475953958e907',1,'Shapefile']]],
+  ['numsupportedfunctions_368',['NumSupportedFunctions',['../class_expression.html#ad6c90e1422dedff51e8d0e9c27431fef',1,'Expression']]],
+  ['numtriangles_369',['NumTriangles',['../class_tin.html#ab06006d079f022f21abea78489cb1979',1,'Tin']]],
+  ['numvertices_370',['NumVertices',['../class_tin.html#a9b90edf7eafa7b6a2104a455f58c6642',1,'Tin']]]
 ];

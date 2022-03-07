@@ -147,7 +147,7 @@ The results of validation can be viewed via <a class="el" href="group__shapefile
 <div class="line">var shp2 = ext2.<a class="code hl_function" href="class_extents.html#a4210ed952744a0342aa23fadbe320175">ToShape</a>();</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// make invalid by reversing order of points</span></div>
-<div class="line">shp.<a class="code hl_function" href="class_shape.html#ab47668f657636c73957073745837ea21">ReversePointsOrder</a>(0);</div>
+<div class="line">shp.<a class="code hl_function" href="class_shape.html#aecf7dd9daa2b65034b4c8e2c4fbfa5e5">ReversePointsOrder</a>(0);</div>
 <div class="line"> </div>
 <div class="line">var sf = <span class="keyword">new</span> <a class="code hl_class" href="class_shapefile.html">Shapefile</a>();</div>
 <div class="line">sf.CreateNew(<span class="stringliteral">&quot;&quot;</span>, <a class="code hl_enumeration" href="_enumerations_8cs.html#a96d6460f5cd3c49b4c12be5a38c82b4e">ShpfileType</a>.SHP_POLYGON);</div>
@@ -185,7 +185,7 @@ The results of validation can be viewed via <a class="el" href="group__shapefile
 <div class="ttc" id="aclass_extents_html_a4210ed952744a0342aa23fadbe320175"><div class="ttname"><a href="class_extents.html#a4210ed952744a0342aa23fadbe320175">Extents.ToShape</a></div><div class="ttdeci">Shape ToShape()</div><div class="ttdoc">Creates a rectangular polygon matching current extents.</div><div class="ttdef"><b>Definition:</b> Extents.cs:214</div></div>
 <div class="ttc" id="aclass_extents_html_a6937feee9ce82ed20944d0a4bcd2505b"><div class="ttname"><a href="class_extents.html#a6937feee9ce82ed20944d0a4bcd2505b">Extents.SetBounds</a></div><div class="ttdeci">void SetBounds(double xMin, double yMin, double zMin, double xMax, double yMax, double zMax)</div><div class="ttdoc">Sets the bounds for the extents object.</div><div class="ttdef"><b>Definition:</b> Extents.cs:85</div></div>
 <div class="ttc" id="aclass_global_settings_html"><div class="ttname"><a href="class_global_settings.html">GlobalSettings</a></div><div class="ttdoc">Holds global settings for MapWinGIS. Allows to retrieve GDAL errors.</div><div class="ttdef"><b>Definition:</b> GlobalSettings.cs:29</div></div>
-<div class="ttc" id="aclass_shape_html_ab47668f657636c73957073745837ea21"><div class="ttname"><a href="class_shape.html#ab47668f657636c73957073745837ea21">Shape.ReversePointsOrder</a></div><div class="ttdeci">bool ReversePointsOrder(int PartIndex)</div><div class="ttdoc">Changes the order of points within shape part to the opposite.</div><div class="ttdef"><b>Definition:</b> Shape.cs:516</div></div>
+<div class="ttc" id="aclass_shape_html_aecf7dd9daa2b65034b4c8e2c4fbfa5e5"><div class="ttname"><a href="class_shape.html#aecf7dd9daa2b65034b4c8e2c4fbfa5e5">Shape.ReversePointsOrder</a></div><div class="ttdeci">bool ReversePointsOrder(int partIndex)</div><div class="ttdoc">Changes the order of points within shape part to the opposite.</div><div class="ttdef"><b>Definition:</b> Shape.cs:517</div></div>
 <div class="ttc" id="aclass_shapefile_html"><div class="ttname"><a href="class_shapefile.html">Shapefile</a></div><div class="ttdoc">Provides a functionality for accessing and editing ESRI shapefiles.</div><div class="ttdef"><b>Definition:</b> Shapefile.cs:72</div></div>
 <div class="ttc" id="aclass_shapefile_html_a544608fbf5ca05fee8d0ce6db04374fd"><div class="ttname"><a href="class_shapefile.html#a544608fbf5ca05fee8d0ce6db04374fd">Shapefile.Extents</a></div><div class="ttdeci">Extents Extents</div><div class="ttdoc">Gets bounding box which encompass all the shapes in the shapefile.</div><div class="ttdef"><b>Definition:</b> Shapefile.cs:146</div></div>
 </div><!-- fragment --><p> Output of the sample: <br  />
@@ -241,7 +241,7 @@ The results of validation can be viewed via <a class="el" href="group__shapefile
 
 <p>Gets results of input data validation for geoprocessing methods. </p>
 <p >Use <a class="el" href="class_global_settings.html#a24b79117826867e0756e2144ec8449bd" title="Sets validation mode for input of geoprocessing operations.">GlobalSettings.ShapeInputValidationMode</a> to change the settings.</p>
-<dl class="newpage491"><dt><b><a class="el" href="newpage491.html#_newpage491000104">New API 4.9.1:</a></b></dt><dd>Added in version 4.9.1 </dd></dl>
+<dl class="newpage491"><dt><b><a class="el" href="newpage491.html#_newpage491000102">New API 4.9.1:</a></b></dt><dd>Added in version 4.9.1 </dd></dl>
 
 </div>
 </div>
@@ -267,7 +267,7 @@ The results of validation can be viewed via <a class="el" href="group__shapefile
 
 <p>Gets results of output data validation for geoprocessing methods. </p>
 <p >Use <a class="el" href="class_global_settings.html#ad31c29dc20f603348acc8838a82f3335" title="Sets validation mode for output of geoprocessing operations.">GlobalSettings.ShapeOutputValidationMode</a> to change the settings.</p>
-<dl class="newpage491"><dt><b><a class="el" href="newpage491.html#_newpage491000105">New API 4.9.1:</a></b></dt><dd>Added in version 4.9.1 </dd></dl>
+<dl class="newpage491"><dt><b><a class="el" href="newpage491.html#_newpage491000103">New API 4.9.1:</a></b></dt><dd>Added in version 4.9.1 </dd></dl>
 
 </div>
 </div>
@@ -277,7 +277,7 @@ The results of validation can be viewed via <a class="el" href="group__shapefile
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 3 2022 07:24:03 for MapWinGIS by 
+    <li class="footer">Generated on Mon Mar 7 2022 11:12:51 for MapWinGIS by 
 		<a href="https://www.doxygen.org/index.html">
 			<img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/>
 		</a> 1.9.3 

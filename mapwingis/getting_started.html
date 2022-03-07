@@ -291,7 +291,7 @@ G. Updating the previous versions of MapWinGIS.</h1>
 1) Install the new version of MapWinGIS from installer or register it manually with regsvr32 utility (all dependent libraries must be present in the latter case);<br  />
 2) Create a new WinForms project in Visual Studio, select necessary version of .NET Framework, add MapWinGIS control to the form.<br  />
 3) Copy automatically created interop assemblies (Interop.MapWinGIS.dll, AxInterop.MapWinGIS.dll) from new_winforms_project\obj\debug to your_old_winforms_project\obj\debug.<br  />
-4) Rebuild project. Over a course of time there were a few small changes in API (like <a class="el" href="class_shape.html#af196c875556f1327cfadd5a3effa6ce4" title="Gets the number of points contained in the shape.">Shape.numPoints</a> -&gt; Shape.NumPoints), so perhaps a couple of batch renamings will be needed.<br  />
+4) Rebuild project. Over a course of time there were a few small changes in API (like Shape.numPoints -&gt; <a class="el" href="class_shape.html#af8fec12ef3300b63bca7dd9dea9da073" title="Gets the number of points contained in the shape.">Shape.NumPoints</a>), so perhaps a couple of batch renamings will be needed.<br  />
 5) It's also recommended to comment the following line in Form Designer: </p><div class="fragment"><div class="line">this.axMap1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject(<span class="stringliteral">&quot;axMap1.OcxState&quot;</span>)));</div>
 </div><!-- fragment --><p> This will reset control's properties set in the designer, as outdated state information often becomes a source of problems. </p>
 </div></div><!-- contents -->
@@ -301,7 +301,7 @@ G. Updating the previous versions of MapWinGIS.</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 3 2022 07:24:01 for MapWinGIS by 
+    <li class="footer">Generated on Mon Mar 7 2022 11:12:49 for MapWinGIS by 
 		<a href="https://www.doxygen.org/index.html">
 			<img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/>
 		</a> 1.9.3 

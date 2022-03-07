@@ -113,8 +113,8 @@ MapWinGIS is COM-based, therefore it counts the references of particular objects
 <div class="line"><span class="comment">// 2. with Clone()</span></div>
 <div class="line"><a class="code hl_class" href="class_shape.html">Shape</a> shp = sf.<a class="code hl_function" href="class_shapefile.html#a06c6a058bfbff22cb2e6d456f75ce9dd">get_Shape</a>(shapeIndex);</div>
 <div class="line">sfNew.<a class="code hl_function" href="group__shapefile__editing.html#ga35adce9cb9bde314c1c19c3b27fbd813">EditAddShape</a>(shp.<a class="code hl_function" href="class_shape.html#af23f4548deb8fcb3ba7a8e80776a25f9">Clone</a>());     <span class="comment">// safe, there are 2 different instances of shape</span></div>
-<div class="ttc" id="aclass_shape_html"><div class="ttname"><a href="class_shape.html">Shape</a></div><div class="ttdoc">A shape object represents a geometric shape which can be added to a shapefile which is displayed in t...</div><div class="ttdef"><b>Definition:</b> Shape.cs:40</div></div>
-<div class="ttc" id="aclass_shape_html_af23f4548deb8fcb3ba7a8e80776a25f9"><div class="ttname"><a href="class_shape.html#af23f4548deb8fcb3ba7a8e80776a25f9">Shape.Clone</a></div><div class="ttdeci">Shape Clone()</div><div class="ttdoc">Creates a deep copy of this object with the same type, parts and points.</div><div class="ttdef"><b>Definition:</b> Shape.cs:122</div></div>
+<div class="ttc" id="aclass_shape_html"><div class="ttname"><a href="class_shape.html">Shape</a></div><div class="ttdoc">A shape object represents a geometric shape which can be added to a shapefile which is displayed in t...</div><div class="ttdef"><b>Definition:</b> Shape.cs:41</div></div>
+<div class="ttc" id="aclass_shape_html_af23f4548deb8fcb3ba7a8e80776a25f9"><div class="ttname"><a href="class_shape.html#af23f4548deb8fcb3ba7a8e80776a25f9">Shape.Clone</a></div><div class="ttdeci">Shape Clone()</div><div class="ttdoc">Creates a deep copy of this object with the same type, parts and points.</div><div class="ttdef"><b>Definition:</b> Shape.cs:123</div></div>
 <div class="ttc" id="aclass_shapefile_html"><div class="ttname"><a href="class_shapefile.html">Shapefile</a></div><div class="ttdoc">Provides a functionality for accessing and editing ESRI shapefiles.</div><div class="ttdef"><b>Definition:</b> Shapefile.cs:72</div></div>
 <div class="ttc" id="aclass_shapefile_html_a06c6a058bfbff22cb2e6d456f75ce9dd"><div class="ttname"><a href="class_shapefile.html#a06c6a058bfbff22cb2e6d456f75ce9dd">Shapefile.get_Shape</a></div><div class="ttdeci">Shape get_Shape(int shapeIndex)</div><div class="ttdoc">Gets the reference to the specified shape.</div><div class="ttdef"><b>Definition:</b> Shapefile.cs:379</div></div>
 <div class="ttc" id="agroup__shapefile__editing_html_ga35adce9cb9bde314c1c19c3b27fbd813"><div class="ttname"><a href="group__shapefile__editing.html#ga35adce9cb9bde314c1c19c3b27fbd813">Shapefile.EditAddShape</a></div><div class="ttdeci">int EditAddShape(Shape shape)</div><div class="ttdoc">Adds a new shape to the shapefile.</div><div class="ttdef"><b>Definition:</b> Shapefile.cs:863</div></div>
@@ -245,7 +245,7 @@ Map control tracks some of the changes of its properties and data layers and tri
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 3 2022 07:24:01 for MapWinGIS by 
+    <li class="footer">Generated on Mon Mar 7 2022 11:12:49 for MapWinGIS by 
 		<a href="https://www.doxygen.org/index.html">
 			<img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/>
 		</a> 1.9.3 

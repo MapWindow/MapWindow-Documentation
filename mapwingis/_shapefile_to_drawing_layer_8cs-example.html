@@ -146,7 +146,7 @@ $(document).ready(function(){initNavTree('_shapefile_to_drawing_layer_8cs-exampl
 <div class="line">                            {</div>
 <div class="line">                                <span class="keywordtype">double</span> x = 0.0;</div>
 <div class="line">                                <span class="keywordtype">double</span> y = 0.0;</div>
-<div class="line">                                shp.<a id="a15" name="a15"></a><a class="code hl_function" href="class_shape.html#a91e4b4aeaa989c9099f25c7b82f00050">get_XY</a>(0, ref x, ref y);</div>
+<div class="line">                                shp.<a id="a15" name="a15"></a><a class="code hl_function" href="class_shape.html#a801cf3cbb723d51f1c7d77ccb2ebac1d">get_XY</a>(0, ref x, ref y);</div>
 <div class="line">                                axMap1.<a id="a16" name="a16"></a><a class="code hl_function" href="group__map__drawing__layers.html#ga35367d72510c76003675c6e7a1a31040">DrawPointEx</a>(drawHandle, x, y, 5, 0);</div>
 <div class="line">                            }</div>
 <div class="line">                            <span class="keywordflow">else</span></div>
@@ -162,7 +162,7 @@ $(document).ready(function(){initNavTree('_shapefile_to_drawing_layer_8cs-exampl
 <div class="line"> </div>
 <div class="line">                                        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; numPoints; j++)</div>
 <div class="line">                                        {</div>
-<div class="line">                                            shp.<a class="code hl_function" href="class_shape.html#a91e4b4aeaa989c9099f25c7b82f00050">get_XY</a>(j + initIndex, ref x[j], ref y[j]);</div>
+<div class="line">                                            shp.<a class="code hl_function" href="class_shape.html#a801cf3cbb723d51f1c7d77ccb2ebac1d">get_XY</a>(j + initIndex, ref x[j], ref y[j]);</div>
 <div class="line">                                        }</div>
 <div class="line"> </div>
 <div class="line">                                        <span class="keywordtype">object</span> xObj = x;</div>
@@ -198,10 +198,10 @@ $(document).ready(function(){initNavTree('_shapefile_to_drawing_layer_8cs-exampl
 <div class="ttc" id="aclass_geo_projection_html_ae37c2dc8a1a3cdb5bd3f179337628912"><div class="ttname"><a href="class_geo_projection.html#ae37c2dc8a1a3cdb5bd3f179337628912">GeoProjection.Clone</a></div><div class="ttdeci">GeoProjection Clone()</div><div class="ttdoc">Creates a copy GeoProjection object</div><div class="ttdef"><b>Definition:</b> GeoProjection.cs:498</div></div>
 <div class="ttc" id="aclass_shape_drawing_options_html_a39f79966a4fe3e2688c2d504f0539db4"><div class="ttname"><a href="class_shape_drawing_options.html#a39f79966a4fe3e2688c2d504f0539db4">ShapeDrawingOptions.LineColor</a></div><div class="ttdeci">uint LineColor</div><div class="ttdoc">Gets or sets the line color of the shapes.</div><div class="ttdef"><b>Definition:</b> ShapeDrawingOptions.cs:577</div></div>
 <div class="ttc" id="aclass_shape_drawing_options_html_accc3cae11b341db916d310afd33b88bd"><div class="ttname"><a href="class_shape_drawing_options.html#accc3cae11b341db916d310afd33b88bd">ShapeDrawingOptions.FillColor</a></div><div class="ttdeci">uint FillColor</div><div class="ttdoc">Gets or sets the fill color of the shape.</div><div class="ttdef"><b>Definition:</b> ShapeDrawingOptions.cs:471</div></div>
-<div class="ttc" id="aclass_shape_html"><div class="ttname"><a href="class_shape.html">Shape</a></div><div class="ttdoc">A shape object represents a geometric shape which can be added to a shapefile which is displayed in t...</div><div class="ttdef"><b>Definition:</b> Shape.cs:40</div></div>
-<div class="ttc" id="aclass_shape_html_a03c8b33a15b0776e4966b1393a039855"><div class="ttname"><a href="class_shape.html#a03c8b33a15b0776e4966b1393a039855">Shape.ShapeType</a></div><div class="ttdeci">ShpfileType ShapeType</div><div class="ttdoc">Gets or sets the type of the shape.</div><div class="ttdef"><b>Definition:</b> Shape.cs:537</div></div>
-<div class="ttc" id="aclass_shape_html_a91e4b4aeaa989c9099f25c7b82f00050"><div class="ttname"><a href="class_shape.html#a91e4b4aeaa989c9099f25c7b82f00050">Shape.get_XY</a></div><div class="ttdeci">bool get_XY(int PointIndex, ref double x, ref double y)</div><div class="ttdoc">Gets the coordinates of the specified point.</div><div class="ttdef"><b>Definition:</b> Shape.cs:638</div></div>
-<div class="ttc" id="aclass_shape_html_ad773494ad560846d072bb20bcf9ae16e"><div class="ttname"><a href="class_shape.html#ad773494ad560846d072bb20bcf9ae16e">Shape.NumParts</a></div><div class="ttdeci">int NumParts</div><div class="ttdoc">Gets the number of parts contained in the shape.</div><div class="ttdef"><b>Definition:</b> Shape.cs:458</div></div>
+<div class="ttc" id="aclass_shape_html"><div class="ttname"><a href="class_shape.html">Shape</a></div><div class="ttdoc">A shape object represents a geometric shape which can be added to a shapefile which is displayed in t...</div><div class="ttdef"><b>Definition:</b> Shape.cs:41</div></div>
+<div class="ttc" id="aclass_shape_html_a03c8b33a15b0776e4966b1393a039855"><div class="ttname"><a href="class_shape.html#a03c8b33a15b0776e4966b1393a039855">Shape.ShapeType</a></div><div class="ttdeci">ShpfileType ShapeType</div><div class="ttdoc">Gets or sets the type of the shape.</div><div class="ttdef"><b>Definition:</b> Shape.cs:538</div></div>
+<div class="ttc" id="aclass_shape_html_a801cf3cbb723d51f1c7d77ccb2ebac1d"><div class="ttname"><a href="class_shape.html#a801cf3cbb723d51f1c7d77ccb2ebac1d">Shape.get_XY</a></div><div class="ttdeci">bool get_XY(int pointIndex, ref double x, ref double y)</div><div class="ttdoc">Gets the coordinates of the specified point.</div><div class="ttdef"><b>Definition:</b> Shape.cs:639</div></div>
+<div class="ttc" id="aclass_shape_html_ad773494ad560846d072bb20bcf9ae16e"><div class="ttname"><a href="class_shape.html#ad773494ad560846d072bb20bcf9ae16e">Shape.NumParts</a></div><div class="ttdeci">int NumParts</div><div class="ttdoc">Gets the number of parts contained in the shape.</div><div class="ttdef"><b>Definition:</b> Shape.cs:459</div></div>
 <div class="ttc" id="aclass_shapefile_html"><div class="ttname"><a href="class_shapefile.html">Shapefile</a></div><div class="ttdoc">Provides a functionality for accessing and editing ESRI shapefiles.</div><div class="ttdef"><b>Definition:</b> Shapefile.cs:72</div></div>
 <div class="ttc" id="aclass_shapefile_html_a544608fbf5ca05fee8d0ce6db04374fd"><div class="ttname"><a href="class_shapefile.html#a544608fbf5ca05fee8d0ce6db04374fd">Shapefile.Extents</a></div><div class="ttdeci">Extents Extents</div><div class="ttdoc">Gets bounding box which encompass all the shapes in the shapefile.</div><div class="ttdef"><b>Definition:</b> Shapefile.cs:146</div></div>
 <div class="ttc" id="aclass_shapefile_html_a8a4a84e8d045b6e18efb6a6d3494a365"><div class="ttname"><a href="class_shapefile.html#a8a4a84e8d045b6e18efb6a6d3494a365">Shapefile.GeoProjection</a></div><div class="ttdeci">GeoProjection GeoProjection</div><div class="ttdoc">Get or sets an instance of GeoProjection class associated with the shapefile.</div><div class="ttdef"><b>Definition:</b> Shapefile.cs:206</div></div>
@@ -223,7 +223,7 @@ $(document).ready(function(){initNavTree('_shapefile_to_drawing_layer_8cs-exampl
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 3 2022 07:24:01 for MapWinGIS by 
+    <li class="footer">Generated on Mon Mar 7 2022 11:12:48 for MapWinGIS by 
 		<a href="https://www.doxygen.org/index.html">
 			<img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/>
 		</a> 1.9.3 

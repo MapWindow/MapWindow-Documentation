@@ -11,7 +11,7 @@ var searchData=
   ['redraw3_8',['Redraw3',['../class_ax_map.html#aa5bcdf85a4db78c3bf2b53ed7134ab0c',1,'AxMap']]],
   ['refreshextents_9',['RefreshExtents',['../group__shapefile__optimizations.html#ga1f080ef73e800aa1d74787b8775375fa',1,'Shapefile']]],
   ['refreshshapeextents_10',['RefreshShapeExtents',['../group__shapefile__optimizations.html#gab6af6c3c5ec80900c2ce18978fd944be',1,'Shapefile']]],
-  ['relates_11',['Relates',['../class_shape.html#a4c88464e4fec9396e7d71e24247ab987',1,'Shape']]],
+  ['relates_11',['Relates',['../class_shape.html#a1c2c48496f6fbdf6df61d6b98d5476e9',1,'Shape']]],
   ['reloadfromsource_12',['ReloadFromSource',['../class_ogr_layer.html#aba25a0bb3b81075d90560a85180d7354',1,'OgrLayer']]],
   ['reloadogrlayerfromsource_13',['ReloadOgrLayerFromSource',['../group__map__layer__management.html#ga25d325e92d9aaf9b4eb5be3c345125b2',1,'AxMap']]],
   ['remove_14',['Remove',['../class_color_scheme.html#a798335cfd137886cee287c9b22958a09',1,'ColorScheme.Remove()'],['../class_field_stat_operations.html#ac6c238fbce9755f136e59c5eab6f8d64',1,'FieldStatOperations.Remove()'],['../class_shapefile_categories.html#a70f442a4c8bf8a250ee811bb48961360',1,'ShapefileCategories.Remove()'],['../class_shapefile_color_scheme.html#a1b45bbd52ad3ec367b92b721ec7f997e',1,'ShapefileColorScheme.Remove()'],['../class_tile_providers.html#aa1ae9555c8d6216da243c217b68191a0',1,'TileProviders.Remove()']]],
@@ -41,7 +41,7 @@ var searchData=
   ['retrievecolorscheme_38',['RetrieveColorScheme',['../class_grid.html#a41e2b3b5ddbe6892347e556295fc3922',1,'Grid']]],
   ['retrieveorgeneratecolorscheme_39',['RetrieveOrGenerateColorScheme',['../class_grid.html#a67500a381144db4340083af677989e1f',1,'Grid']]],
   ['reverse_40',['Reverse',['../class_color_scheme.html#a012f657abb3fbd743f5bd75a7192e949',1,'ColorScheme']]],
-  ['reversepointsorder_41',['ReversePointsOrder',['../class_shape.html#ab47668f657636c73957073745837ea21',1,'Shape']]],
+  ['reversepointsorder_41',['ReversePointsOrder',['../class_shape.html#aecf7dd9daa2b65034b4c8e2c4fbfa5e5',1,'Shape']]],
   ['rotate_42',['Rotate',['../class_shape.html#a26089fcec63454d98b3170aa7aedfeeb',1,'Shape']]],
   ['runquery_43',['RunQuery',['../class_ogr_datasource.html#a035e078df8e7feebe2e23ba1860b8643',1,'OgrDatasource']]]
 ];

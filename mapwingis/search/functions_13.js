@@ -8,7 +8,7 @@ var searchData=
   ['todebugstring_5',['ToDebugString',['../class_extents.html#abcaab0d91bf6e11f989e5f9c9f48b199',1,'Extents']]],
   ['togglepixel_6',['TogglePixel',['../class_selection_list.html#ac2006bc6b95835ed0f8a20945e093fe5',1,'SelectionList']]],
   ['toshape_7',['ToShape',['../class_extents.html#a4210ed952744a0342aa23fadbe320175',1,'Extents']]],
-  ['touches_8',['Touches',['../class_shape.html#a18faf73fddcd4ff218af70ffed6bccce',1,'Shape']]],
+  ['touches_8',['Touches',['../class_shape.html#a3a4ec0e642aeb09195db720a0f928506',1,'Shape']]],
   ['transform_9',['Transform',['../class_geo_projection.html#a58134871732269011b92b76396d4583b',1,'GeoProjection']]],
   ['translateraster_10',['TranslateRaster',['../class_utils.html#a43201b58ed135d16482ebde7b39054ed',1,'Utils']]],
   ['triangle_11',['Triangle',['../class_tin.html#a01f3a9d3f3df805924b6db9f4710e742',1,'Tin']]],

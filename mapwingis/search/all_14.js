@@ -162,7 +162,7 @@ var searchData=
   ['tomato_159',['Tomato',['../_enumerations_8cs.html#a56128309d85c3a2ffcd1e585e4b82c6da77bd79b3dca1f49815655b6f2df760ba',1,'Enumerations.cs']]],
   ['toshape_160',['ToShape',['../class_extents.html#a4210ed952744a0342aa23fadbe320175',1,'Extents']]],
   ['totallength_161',['TotalLength',['../class_undo_list.html#a057b935833663bf94867f4887f43cd05',1,'UndoList']]],
-  ['touches_162',['Touches',['../class_shape.html#a18faf73fddcd4ff218af70ffed6bccce',1,'Shape']]],
+  ['touches_162',['Touches',['../class_shape.html#a3a4ec0e642aeb09195db720a0f928506',1,'Shape']]],
   ['tpscompatible_163',['tpsCompatible',['../_enumerations_8cs.html#a7a79b998e2d703ec9b8c8159c7e68d4fa51a0059d32d4561fc55fd4e96057647f',1,'Enumerations.cs']]],
   ['tpsemptyorinvalid_164',['tpsEmptyOrInvalid',['../_enumerations_8cs.html#a7a79b998e2d703ec9b8c8159c7e68d4faf2d845ad19ea8648d05bc9e1522f03fc',1,'Enumerations.cs']]],
   ['tpsnative_165',['tpsNative',['../_enumerations_8cs.html#a7a79b998e2d703ec9b8c8159c7e68d4fae5dc900720e72f275f4a9d533aeba3dd',1,'Enumerations.cs']]],

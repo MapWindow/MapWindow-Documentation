@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['backcolor_0',['BackColor',['../class_ax_map.html#aa6a9d7adba47ecc349c19f14fd471e22',1,'AxMap']]],
-  ['backcolor_1',['backColor',['../class_ax_map.html#a816f3ad926a2518911ef55bcff85e1fc',1,'AxMap']]],
+  ['backcolor_0',['backColor',['../class_ax_map.html#a816f3ad926a2518911ef55bcff85e1fc',1,'AxMap']]],
+  ['backcolor_1',['BackColor',['../class_ax_map.html#aa6a9d7adba47ecc349c19f14fd471e22',1,'AxMap']]],
   ['barheight_2',['BarHeight',['../class_charts.html#a9dbfed7d5787b8a0aa68b3fd5754330b',1,'Charts']]],
   ['barwidth_3',['BarWidth',['../class_charts.html#a8d25ada36cfe47c86eeac43bd5e47e43',1,'Charts']]],
   ['baseurl_4',['BaseUrl',['../class_wms_layer.html#aeee6a505240ad688c70c03c742b26a33',1,'WmsLayer']]],
