@@ -672,6 +672,7 @@ namespace MapWinGIS
 
         /// <summary>
         /// Starts logging of tile requests.
+        /// See also Tiles.LogFilename
         /// </summary>
         /// <param name="filename">The filename.</param>
         /// <param name="errorsOnly">If set to <c>true</c> only errors will be logged.</param>
@@ -683,7 +684,7 @@ namespace MapWinGIS
         }
 
         /// <summary>
-        /// Stops the logging of the tile requests to a logfile, started with StartLogTileRequests
+        /// Stops the logging of the tile requests to a logfile, started with GlobalSettings.StartLogTileRequests
         /// </summary>
         public void StopLogTileRequests()
         {
