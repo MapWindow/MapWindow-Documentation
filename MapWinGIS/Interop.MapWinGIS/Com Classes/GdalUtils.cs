@@ -122,7 +122,10 @@ public class GdalUtils
     /// <param name="overviewList">A list of integral overview levels to build, as an integer array</param>
     /// <param name="bandList">List of band numbers, band numbering starts from 1, as an integer array</param>
     /// <param name="configOptions">The configuration options, as a string array (<tt>-</tt><tt>-config</tt>)</param>
-    /// <remarks>See GDAL's documentation here: https://gdal.org/programs/gdaladdo.html</remarks>
+    /// <remarks>
+    /// See GDAL's documentation here: https://gdal.org/programs/gdaladdo.html
+    /// A good guide about compressions of GeoTiff: https://kokoalberti.com/articles/geotiff-compression-optimization-guide/
+    /// </remarks>
     /// \new510 Added in version 5.1.0
     ///
     /// \code
@@ -273,8 +276,6 @@ public class GdalUtils
     /// 
     /// \code
     /// // Clipping large shapefile with border file
-    /// const string subjectFilename = @"D:\dev\GIS-Data\Issues\MWGIS-78 Clipper\Fishnet.shp";
-    /// const string borderFilename = @"D:\dev\GIS-Data\Issues\MWGIS-78 Clipper\border.shp";
     /// var outputFilename = Path.Combine(tempFolder, "GdalVectorTranslate.shp");
     /// var gdalUtils = new GdalUtils();
     /// if (!gdalUtils.ClipVectorWithVector("LargeFile.shp", "Border.shp", outputFilename))

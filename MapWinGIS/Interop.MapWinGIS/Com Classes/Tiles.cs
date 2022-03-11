@@ -1,4 +1,4 @@
-﻿`using System;
+﻿using System;
 using MapWinGIS;
 
 #if nsp
@@ -651,7 +651,8 @@ public class Tiles
 
     /// <summary>
     /// Gets or sets a value indicating whether log will include all HTTP requests or only unsuccessful ones.
-    /// Enable tiles logging by using GlobalSettings.StartLogTileRequests
+    /// \see GlobalSettings.StartLogTileRequests
+    /// \see GlobalSettings.StopLogTileRequests
     /// </summary>
     /// \new491 Added in version 4.9.1
     public bool LogErrorsOnly
@@ -662,7 +663,8 @@ public class Tiles
 
     /// <summary>
     /// Gets filename to write log into.
-    /// Enable tiles logging by using GlobalSettings.StartLogTileRequests
+    /// \see GlobalSettings.StartLogTileRequests
+    /// \see GlobalSettings.StopLogTileRequests
     /// </summary>
     /// \new491 Added in version 4.9.1
     public string LogFilename
@@ -672,7 +674,8 @@ public class Tiles
 
     /// <summary>
     /// Gets a value indicating whether logging of HTTP requests will be performed.
-    /// Enable tiles logging by using GlobalSettings.StartLogTileRequests()
+    /// \see GlobalSettings.StartLogTileRequests
+    /// \see GlobalSettings.StopLogTileRequests
     /// </summary>
     /// \new491 Added in version 4.9.1
     public bool LogIsOpened
