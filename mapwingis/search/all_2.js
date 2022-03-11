@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['backcolor_0',['backColor',['../class_ax_map.html#a816f3ad926a2518911ef55bcff85e1fc',1,'AxMap']]],
-  ['backcolor_1',['BackColor',['../class_ax_map.html#aa6a9d7adba47ecc349c19f14fd471e22',1,'AxMap']]],
+  ['backcolor_0',['BackColor',['../class_ax_map.html#aa6a9d7adba47ecc349c19f14fd471e22',1,'AxMap']]],
+  ['backcolor_1',['backColor',['../class_ax_map.html#a816f3ad926a2518911ef55bcff85e1fc',1,'AxMap']]],
   ['backgroundloadingfinished_2',['BackgroundLoadingFinished',['../group__map__events.html#gac0bc129477b5679972c7f3cc46d2a98e',1,'AxMap']]],
   ['backgroundloadingstarted_3',['BackgroundLoadingStarted',['../group__map__events.html#ga90e441eb6fdb15805191b48a0695ca6a',1,'AxMap']]],
   ['barheight_4',['BarHeight',['../class_charts.html#a9dbfed7d5787b8a0aa68b3fd5754330b',1,'Charts']]],

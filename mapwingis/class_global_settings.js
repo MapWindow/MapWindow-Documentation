@@ -1,8 +1,8 @@
 var class_global_settings =
 [
-    [ "get_LocalizedString", "class_global_settings.html#a982c5e718443adb607395dc06526c110", null ],
+    [ "LocalizedString", "class_global_settings.html#a6813926b12a512919276be6e872a9fcd", null ],
     [ "ResetGdalError", "class_global_settings.html#a3efc84bb5a592cd3cd89a2a9ab09c92d", null ],
-    [ "set_LocalizedString", "class_global_settings.html#acec9acdbd5a6c433a6061e7d2aa4ab61", null ],
+    [ "set_LocalizedString", "class_global_settings.html#a8aa56632bd6667f6165644ec7120397f", null ],
     [ "SetHereMapsApiKey", "class_global_settings.html#a5c40697a3b2cd75d4a566a002b77aefe", null ],
     [ "SetHttpUserAgent", "class_global_settings.html#ab75eb86f80fea903c7bfdfdafad399a6", null ],
     [ "StartLogTileRequests", "class_global_settings.html#a8f170d3e7620dd6836d6ebc6d3afb925", null ],

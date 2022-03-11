@@ -13,5 +13,6 @@ var searchData=
   ['loadlayeroptions_10',['LoadLayerOptions',['../group__map__serialization.html#gaecbe5a47aa0f1af96c1a928234adcc8b',1,'AxMap']]],
   ['loadmapstate_11',['LoadMapState',['../group__map__serialization.html#ga99038295e529e39d6438b1021d8e6e39',1,'AxMap']]],
   ['loadtilesforsnapshot_12',['LoadTilesForSnapshot',['../class_ax_map.html#a1a6d2e830e2660e05418af5f3a21a2fd',1,'AxMap']]],
-  ['lockwindow_13',['LockWindow',['../group__map__interaction.html#ga7cd5c70dd4bef60769ba404007349b0d',1,'AxMap']]]
+  ['localizedstring_13',['LocalizedString',['../class_global_settings.html#a6813926b12a512919276be6e872a9fcd',1,'GlobalSettings']]],
+  ['lockwindow_14',['LockWindow',['../group__map__interaction.html#ga7cd5c70dd4bef60769ba404007349b0d',1,'AxMap']]]
 ];

@@ -55,7 +55,7 @@ var searchData=
   ['set_5flayerskiponsaving_52',['set_LayerSkipOnSaving',['../group__map__layer__properties.html#ga26d628f62b55427de180560e6242ef88',1,'AxMap']]],
   ['set_5flayervisible_53',['set_LayerVisible',['../group__map__layer__properties.html#gaf1a6ccf1e3953b195b045f957fa933be',1,'AxMap']]],
   ['set_5fline_54',['set_Line',['../class_line_pattern.html#a48e614b0361cf136bb9d643fe80cb64d',1,'LinePattern']]],
-  ['set_5flocalizedstring_55',['set_LocalizedString',['../class_global_settings.html#acec9acdbd5a6c433a6061e7d2aa4ab61',1,'GlobalSettings']]],
+  ['set_5flocalizedstring_55',['set_LocalizedString',['../class_global_settings.html#a8aa56632bd6667f6165644ec7120397f',1,'GlobalSettings']]],
   ['set_5fmaxcachesize_56',['set_MaxCacheSize',['../class_tiles.html#aa0168b95d1b770d00972c89f551c912e',1,'Tiles']]],
   ['set_5fname_57',['set_Name',['../class_tile_providers.html#aa8823e392af5812494800bac67cc2f0c',1,'TileProviders']]],
   ['set_5fowner_58',['set_Owner',['../class_grid_header.html#af85fa0064bde8fb88137dd3879401a1e',1,'GridHeader']]],

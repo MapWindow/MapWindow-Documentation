@@ -245,11 +245,11 @@ Properties</h2></td></tr>
 <li>if geoprojection is not empty - by converting coordinates to decimal degrees and using precise calculation on ellipsoid (<a href="http://geographiclib.sourceforge.net/html/">GeographicLib</a>);</li>
 <li>otherwise - planar calculations using Euclidean geometry and <a class="el" href="group__map__coordinates.html#ga804a86b479749fd65bf6b56ff48c1586" title="Gets or sets the units of measure for the map.">AxMap.MapUnits</a> property;</li>
 </ul>
-<p>Current implementation support only metric units (meters, kilometers). The abbreviated name of units can be changed to a localized one using <a class="el" href="class_global_settings.html#acec9acdbd5a6c433a6061e7d2aa4ab61" title="Sets the localized version for a specified string used in GUI.">GlobalSettings.set_LocalizedString</a>: </p><div class="fragment"><div class="line"><a class="code hl_class" href="class_global_settings.html">GlobalSettings</a> gs = <span class="keyword">new</span> <a class="code hl_class" href="class_global_settings.html">GlobalSettings</a>();</div>
-<div class="line">gs.<a class="code hl_function" href="class_global_settings.html#acec9acdbd5a6c433a6061e7d2aa4ab61">set_LocalizedString</a>(<a class="code hl_enumeration" href="_enumerations_8cs.html#a3224e954181fc94afa866a0bd2cba4f2">tkLocalizedStrings</a>.lsKilometers) = <span class="stringliteral">&quot;км&quot;</span>;</div>
+<p>Current implementation support only metric units (meters, kilometers). The abbreviated name of units can be changed to a localized one using <a class="el" href="class_global_settings.html#a8aa56632bd6667f6165644ec7120397f" title="Sets the localized version for a specified string used in the GUI.">GlobalSettings.set_LocalizedString</a>: </p><div class="fragment"><div class="line"><a class="code hl_class" href="class_global_settings.html">GlobalSettings</a> gs = <span class="keyword">new</span> <a class="code hl_class" href="class_global_settings.html">GlobalSettings</a>();</div>
+<div class="line">gs.<a class="code hl_function" href="class_global_settings.html#a8aa56632bd6667f6165644ec7120397f">set_LocalizedString</a>(<a class="code hl_enumeration" href="_enumerations_8cs.html#a3224e954181fc94afa866a0bd2cba4f2">tkLocalizedStrings</a>.lsKilometers) = <span class="stringliteral">&quot;км&quot;</span>;</div>
 <div class="ttc" id="a_enumerations_8cs_html_a3224e954181fc94afa866a0bd2cba4f2"><div class="ttname"><a href="_enumerations_8cs.html#a3224e954181fc94afa866a0bd2cba4f2">tkLocalizedStrings</a></div><div class="ttdeci">tkLocalizedStrings</div><div class="ttdoc">GUI strings that may be localized.</div><div class="ttdef"><b>Definition:</b> Enumerations.cs:2058</div></div>
 <div class="ttc" id="aclass_global_settings_html"><div class="ttname"><a href="class_global_settings.html">GlobalSettings</a></div><div class="ttdoc">Holds global settings for MapWinGIS. Allows to retrieve GDAL errors.</div><div class="ttdef"><b>Definition:</b> GlobalSettings.cs:29</div></div>
-<div class="ttc" id="aclass_global_settings_html_acec9acdbd5a6c433a6061e7d2aa4ab61"><div class="ttname"><a href="class_global_settings.html#acec9acdbd5a6c433a6061e7d2aa4ab61">GlobalSettings.set_LocalizedString</a></div><div class="ttdeci">void set_LocalizedString(tkLocalizedStrings str, string retVal)</div><div class="ttdoc">Sets the localized version for a specified string used in GUI.</div><div class="ttdef"><b>Definition:</b> GlobalSettings.cs:224</div></div>
+<div class="ttc" id="aclass_global_settings_html_a8aa56632bd6667f6165644ec7120397f"><div class="ttname"><a href="class_global_settings.html#a8aa56632bd6667f6165644ec7120397f">GlobalSettings.set_LocalizedString</a></div><div class="ttdeci">void set_LocalizedString(tkLocalizedStrings stringValue, string retVal)</div><div class="ttdoc">Sets the localized version for a specified string used in the GUI.</div><div class="ttdef"><b>Definition:</b> GlobalSettings.cs:260</div></div>
 </div><!-- fragment --><p> Custom logic to be executed during measuring can be added by handling <a class="el" href="group__map__events.html#gaa7e4293c8b88687de6f0c4ec3c7743f5" title="This event is fired after the user adds or removes a point from the path of Measuring tool.">AxMap.MeasuringChanged</a> event. Area and length of measured path are available via <a class="el" href="class_measuring.html#a4617428c59c74c946348c489ca762019" title="Gets the length of measured path (in meters if WGS84 compatible projection is set for map and in curr...">Measuring.Length</a> and <a class="el" href="class_measuring.html#ac50571ca7afa73ac281c7ea951d2d70f" title="Gets the measured area (in square meters if WGS84 compatible projection is set for map and in current...">Measuring.Area</a> (in meters and square meters respectively; or map units if no projection is set). Measured points can be accessed using <a class="el" href="class_measuring.html#a25f0c71e70f116f5fe59522137f89a08" title="Gets coordinates of specified point in the path.">Measuring.get_PointXY</a> and <a class="el" href="class_measuring.html#a326bf4b38644298a14357595b3eb5cd2" title="Gets number of points in the measured path.">Measuring.PointCount</a>. Use <a class="el" href="group__map__coordinates.html#gad4926b93887798491868942bbca8575f" title="Converts projected map coordinates to decimal degrees (map projection must be specified for this meth...">AxMap.ProjToDegrees</a> to get latitude, longitude in decimal degrees. </p><div class="fragment"><div class="line">axMap1.MeasuringChanged += (s, e) =&gt;</div>
 <div class="line">{</div>
 <div class="line">    <span class="keywordflow">if</span> (e.action  == <a class="code hl_enumeration" href="_enumerations_8cs.html#a7f649ba41500d3e8d9e0f9ea44433bec">tkMeasuringAction</a>.PointAdded)</div>
@@ -521,7 +521,7 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets or sets angle format to be used to display bearing. </p>
-<dl class="newpage493"><dt><b><a class="el" href="newpage493.html#_newpage493000053">New API 4.9.3:</a></b></dt><dd>Added in version 4.9.3 </dd></dl>
+<dl class="newpage493"><dt><b><a class="el" href="newpage493.html#_newpage493000052">New API 4.9.3:</a></b></dt><dd>Added in version 4.9.3 </dd></dl>
 
 </div>
 </div>
@@ -547,7 +547,7 @@ Properties</h2></td></tr>
 
 <p>Gets or sets the number of decimal degrees to be used to display bearing. </p>
 <p >This setting is not used when AngleFormat is set to minutes or seconds.</p>
-<dl class="newpage493"><dt><b><a class="el" href="newpage493.html#_newpage493000054">New API 4.9.3:</a></b></dt><dd>Added in version 4.9.3 </dd></dl>
+<dl class="newpage493"><dt><b><a class="el" href="newpage493.html#_newpage493000053">New API 4.9.3:</a></b></dt><dd>Added in version 4.9.3 </dd></dl>
 
 </div>
 </div>
@@ -596,7 +596,7 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets or sets the number of decimal degrees to be used to display area. </p>
-<dl class="newpage493"><dt><b><a class="el" href="newpage493.html#_newpage493000055">New API 4.9.3:</a></b></dt><dd>Added in version 4.9.3 </dd></dl>
+<dl class="newpage493"><dt><b><a class="el" href="newpage493.html#_newpage493000054">New API 4.9.3:</a></b></dt><dd>Added in version 4.9.3 </dd></dl>
 
 </div>
 </div>
@@ -621,7 +621,7 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets or sets the area units to be displayed. </p>
-<dl class="newpage493"><dt><b><a class="el" href="newpage493.html#_newpage493000052">New API 4.9.3:</a></b></dt><dd>Added in version 4.9.3 </dd></dl>
+<dl class="newpage493"><dt><b><a class="el" href="newpage493.html#_newpage493000051">New API 4.9.3:</a></b></dt><dd>Added in version 4.9.3 </dd></dl>
 
 </div>
 </div>
@@ -895,7 +895,7 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets or sets the number of decimal degrees to be used to display length. </p>
-<dl class="newpage493"><dt><b><a class="el" href="newpage493.html#_newpage493000056">New API 4.9.3:</a></b></dt><dd>Added in version 4.9.3 </dd></dl>
+<dl class="newpage493"><dt><b><a class="el" href="newpage493.html#_newpage493000055">New API 4.9.3:</a></b></dt><dd>Added in version 4.9.3 </dd></dl>
 
 </div>
 </div>
@@ -920,7 +920,7 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets or sets type of the length units to be displayed. </p>
-<dl class="newpage493"><dt><b><a class="el" href="newpage493.html#_newpage493000051">New API 4.9.3:</a></b></dt><dd>Added in version 4.9.3 </dd></dl>
+<dl class="newpage493"><dt><b><a class="el" href="newpage493.html#_newpage493000050">New API 4.9.3:</a></b></dt><dd>Added in version 4.9.3 </dd></dl>
 
 </div>
 </div>
@@ -1117,7 +1117,7 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets or sets a value indicating whether vertices of the measured path will be visible. </p>
-<dl class="newpage493"><dt><b><a class="el" href="newpage493.html#_newpage493000057">New API 4.9.3:</a></b></dt><dd>Added in version 4.9.3 </dd></dl>
+<dl class="newpage493"><dt><b><a class="el" href="newpage493.html#_newpage493000056">New API 4.9.3:</a></b></dt><dd>Added in version 4.9.3 </dd></dl>
 
 </div>
 </div>
@@ -1167,7 +1167,7 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets or sets a value indicating whether length of the line segments will be displayed. </p>
-<dl class="newpage493"><dt><b><a class="el" href="newpage493.html#_newpage493000050">New API 4.9.3:</a></b></dt><dd>Added in version 4.9.3 </dd></dl>
+<dl class="newpage493"><dt><b><a class="el" href="newpage493.html#_newpage493000049">New API 4.9.3:</a></b></dt><dd>Added in version 4.9.3 </dd></dl>
 
 </div>
 </div>
@@ -1228,7 +1228,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_measuring.html">Measuring</a></li>
-    <li class="footer">Generated on Wed Mar 9 2022 10:08:13 for MapWinGIS by 
+    <li class="footer">Generated on Fri Mar 11 2022 16:03:52 for MapWinGIS by 
 		<a href="https://www.doxygen.org/index.html">
 			<img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/>
 		</a> 1.9.3 

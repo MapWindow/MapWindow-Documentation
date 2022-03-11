@@ -848,7 +848,7 @@ Events</h2></td></tr>
 <tr class="memdesc:gaf1d248fe81a87c1d41785ee0091e46d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This event is fired after a layer was reprojected (its original projection was different from the map projection).  <a href="group__map__events.html#gaf1d248fe81a87c1d41785ee0091e46d6">More...</a><br /></td></tr>
 <tr class="separator:gaf1d248fe81a87c1d41785ee0091e46d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac8723453111c19274ceda738a9e53bdb"><td class="memItemLeft" align="right" valign="top">_DMapEvents_LayerReprojectedIncompleteEventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__map__events.html#gac8723453111c19274ceda738a9e53bdb">LayerReprojectedIncomplete</a></td></tr>
-<tr class="memdesc:gac8723453111c19274ceda738a9e53bdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">This event is fired when a layer was not fully reprojected. It is controlled by the <a class="el" href="class_global_settings.html#a4ed3a88d0491fbd093478b7c70c91c81" title="Allow layers with incomplete reprojection. Default is false.">GlobalSettings.AllowLayersWithIncompleteReprojection</a> property.  <a href="group__map__events.html#gac8723453111c19274ceda738a9e53bdb">More...</a><br /></td></tr>
+<tr class="memdesc:gac8723453111c19274ceda738a9e53bdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">This event is fired when a layer was not fully reprojected. It is controlled by the <a class="el" href="class_global_settings.html#a4ed3a88d0491fbd093478b7c70c91c81" title="Allow layers with incomplete reprojection.">GlobalSettings.AllowLayersWithIncompleteReprojection</a> property.  <a href="group__map__events.html#gac8723453111c19274ceda738a9e53bdb">More...</a><br /></td></tr>
 <tr class="separator:gac8723453111c19274ceda738a9e53bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8d45a86315c3b03b87c6995510971057"><td class="memItemLeft" align="right" valign="top">_DMapEvents_MapStateEventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__map__events.html#ga8d45a86315c3b03b87c6995510971057">MapState</a></td></tr>
 <tr class="memdesc:ga8d45a86315c3b03b87c6995510971057"><td class="mdescLeft">&#160;</td><td class="mdescRight">This event is fired for each layer in the map when the map state is changed.  <a href="group__map__events.html#ga8d45a86315c3b03b87c6995510971057">More...</a><br /></td></tr>
@@ -1465,7 +1465,7 @@ Here are groups of API members for <a class="el" href="class_ax_map.html" title=
 <p>The global callback is the interface used by MapWinGIS to pass progress and error events to interested applications. </p>
 <p >.NET clients passing <a class="el" href="interface_i_callback.html" title="An interface for callback objects which can be used to return information about progress and errors.">ICallback</a> implementation to this property must make respective class COM visible by setting ComVisible(true) attribute. In fact ComVisible(true) is set by default <br  />
  for public classes, so it's enough to make sure that it isn't explicitly set to false for the class or assembly where the class is defined. Otherwise InvalidCastException may occur at runtime.</p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000040">Deprecated:</a></b></dt><dd>v4.9.3 Use <a class="el" href="class_global_settings.html#ac01309d06b2dc9c11019a8c8589da3c8" title="Gets or sets global callback object to report information about progress and errors taking place insi...">GlobalSettings.ApplicationCallback</a> instead. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000037">Deprecated:</a></b></dt><dd>v4.9.3 Use <a class="el" href="class_global_settings.html#ac01309d06b2dc9c11019a8c8589da3c8" title="Gets or sets global callback object to report information about progress and errors taking place insi...">GlobalSettings.ApplicationCallback</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -1800,7 +1800,7 @@ Here are groups of API members for <a class="el" href="class_ax_map.html" title=
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_ax_map.html">AxMap</a></li>
-    <li class="footer">Generated on Wed Mar 9 2022 10:08:13 for MapWinGIS by 
+    <li class="footer">Generated on Fri Mar 11 2022 16:03:51 for MapWinGIS by 
 		<a href="https://www.doxygen.org/index.html">
 			<img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/>
 		</a> 1.9.3 
