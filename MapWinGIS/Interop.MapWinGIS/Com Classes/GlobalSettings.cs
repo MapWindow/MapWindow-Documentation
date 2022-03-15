@@ -248,7 +248,7 @@ public class GlobalSettings
     /// Sets the localized version for a specified string used in the GUI.
     /// </summary>
     /// <param name="stringValue">String to set localized version for.</param>
-    /// <param name="retVal">Localized string.</param>
+    /// <param name="newValue">New localized value.</param>
     /// \code{.cs}
     /// // Usage:
     /// var gs = new GlobalSettings();
@@ -257,11 +257,11 @@ public class GlobalSettings
     /// gs.set_LocalizedString(tkLocalizedStrings.lsMiles, "Mijl"); // Notice the parentheses and the 'set_' prefix
     /// \endcode
     /// \new491 Added in version 4.9.1
-    public void set_LocalizedString(tkLocalizedStrings stringValue, string retVal)
+    public void LocalizedString(tkLocalizedStrings stringValue, string newValue)
     {
         // ReSharper disable once UseIndexedProperty
         _gs.set_LocalizedString((MapWinGIS.tkLocalizedStrings)tkLocalizedStrings.lsMiles, "Mijl");
-        _gs.LocalizedString[(MapWinGIS.tkLocalizedStrings)tkLocalizedStrings.lsMiles] = "Mijl";
+        _gs.LocalizedString[(MapWinGIS.tkLocalizedStrings)stringValue] = newValue;
     }
 
     /// <summary>
@@ -517,40 +517,57 @@ public class GlobalSettings
     }
 
     /// <summary>
-    /// Gets or sets a value which indicates whether OgrLayer.DynamicLoading mode will
-    /// chosen automatically based on the number of features. The default value is true.
+    /// Gets or sets a value which indicates whether OgrLayer.DynamicLoading mode will be
+    /// chosen automatically based on the number of features.
     /// </summary>
+    /// <remarks>
+    /// > Default value is \c true</remarks>
     /// \new493 Added in version 4.9.3
-    public bool AutoChooseOgrLoadingMode { get; set; }
+    public bool AutoChooseOgrLoadingMode
+    {
+        get => _gs.AutoChooseOgrLoadingMode;
+        set => _gs.AutoChooseOgrLoadingMode = value;
+    }
 
     /// <summary>
     /// Gets or sets maximum number of shapes within view for hot tracking functionality to work.
     /// </summary>
-    /// <remarks>Hot tracking is used by cmIdentify tool and interactive editing tools.</remarks>
+    /// <remarks>Hot tracking is used by tkCursorMode.cmIdentify tool and interactive editing tools.
+    /// > Default value is \c 200</remarks>
     /// \see Identifier.HotTracking, ShapeEditor.HighlightVertices.
     /// \new493 Added in version 4.9.3
     public int HotTrackingMaxShapeCount
     {
-        get => throw new NotImplementedException();
-        set => throw new NotImplementedException();
+        get => _gs.HotTrackingMaxShapeCount;
+        set => _gs.HotTrackingMaxShapeCount = value;
     }
 
     /// <summary>
     /// Gets or sets a value indicating whether layers without metadata about coordinate system / projection can be added to the map.
     /// </summary>
-    /// <remarks>The default value is true. The decision can also be made on per-layer bases
-    /// by handling AxMap.LayerProjectionIsEmpty event.</remarks>
+    /// <remarks>The decision can also be made on per-layer bases
+    /// by handling AxMap.LayerProjectionIsEmpty event.
+    /// > Default value is \c true.</remarks>
     /// \new493 Added in version 4.9.3
-    public bool AllowLayersWithoutProjections { get; set; }
+    public bool AllowLayersWithoutProjections
+    {
+        get => _gs.AllowLayersWithoutProjections;
+        set => _gs.AllowLayersWithoutProjections = value;
+    }
 
     /// <summary>
     /// Gets or sets a value indicating whether layers with coordinate system / projection different from those of the map can be added to the map.
     /// </summary>
     /// <remarks>In most cases it's not advisable to allow projection mismatch, since relative position of layers with different 
-    /// projections won't be correct. The default value is false. The decision can also be made on per-layer bases
-    /// by handling AxMap.ProjectionMismatch event.</remarks>
+    /// projections won't be correct. The decision can also be made on per-layer bases
+    /// by handling AxMap.ProjectionMismatch event.
+    /// > Default value is \c false.</remarks>
     /// \new493 Added in version 4.9.3
-    public bool AllowProjectionMismatch { get; set; }
+    public bool AllowProjectionMismatch
+    {
+        get => _gs.AllowProjectionMismatch;
+        set => _gs.AllowProjectionMismatch = value;
+    }
 
     /// <summary>
     /// Gets or sets global callback object to report information about progress and errors taking place inside MapWinGIS.
@@ -559,63 +576,107 @@ public class GlobalSettings
     /// (like %Shapefile.GlobalCallback, %AxMap.GlobalCallback). Also it will automatically display internal GDAL error messages.</remarks>
     /// \note It's strongly recommended to use this property rather than setting callback for each and every class.
     /// \new493 Added in version 4.9.3
-    public ICallback ApplicationCallback { get; set; }
+    public ICallback ApplicationCallback
+    {
+        get => (ICallback)_gs.ApplicationCallback;
+        set => _gs.ApplicationCallback = (MapWinGIS.ICallback)value;
+    }
 
     /// <summary>
     /// Gets or sets a value which limits the maximum number of shapes within a vector layer to run on-the-fly reprojection.
     /// </summary>
-    /// <remarks>This property is taken into account when projection mismatch occurs on adding a new layer to the map.</remarks>
+    /// <remarks>This property is taken into account when projection mismatch occurs on adding a new layer to the map.
+    /// > Default value is \c 50 000.</remarks>
     /// \new493 Added in version 4.9.3
-    public int MaxReprojectionShapeCount { get; set; }
+    public int MaxReprojectionShapeCount
+    {
+        get => _gs.MaxReprojectionShapeCount;
+        set => _gs.MaxReprojectionShapeCount = value;
+    }
 
     /// <summary>
     /// Gets or sets a value which determines how close to a particular object mouse cursor should be 
     /// in order to select it with mouse click. 
     /// </summary>
+    /// <remarks>
+    /// > Default value is \c 20 map units.</remarks>
     /// \new493 Added in version 4.9.3
-    public double MouseTolerance { get; set; }
+    public double MouseTolerance
+    {
+        get => _gs.MouseTolerance;
+        set => _gs.MouseTolerance = value;
+    }
 
     /// <summary>
     /// Gets or sets a value which determines whether automatic on-the-fly reprojection of the vector layer
     /// will be performed on adding a new layer to the map with different projection.
     /// </summary>
-    /// <remarks>The decision can also be made on per-layer bases by handling AxMap.ProjectionMismatch event.</remarks>
+    /// <remarks>The decision can also be made on per-layer bases by handling AxMap.ProjectionMismatch event.
+    /// > Default value is \c false.</remarks>
     /// \see MaxReprojectionShapeCount
     /// \new493 Added in version 4.9.3
-    public bool ReprojectLayersOnAdding { get; set; }
+    public bool ReprojectLayersOnAdding
+    {
+        get => _gs.ReprojectLayersOnAdding;
+        set => _gs.ReprojectLayersOnAdding = value;
+    }
 
     /// <summary>
     /// When set to true rendering hint for Labels will be chosen automatically to ensure better performance and visual quality.
     /// </summary>
-    /// \see Labels.TextRednderingHint
+    /// <remarks>
+    /// > Default value is \c true.</remarks>
+    /// \see Labels.TextRenderingHint
     /// \new493 Added in version 4.9.3
-    public bool AutoChooseRenderingHintForLabels { get; set; }
+    public bool AutoChooseRenderingHintForLabels
+    {
+        get => _gs.AutoChooseRenderingHintForLabels;
+        set => _gs.AutoChooseRenderingHintForLabels = value;
+    }
 
     /// <summary>
     /// When set to true, any labels added to any instance of AxMap won't be rendered.
     /// </summary>
+    /// <remarks>
+    /// > Default value is \c false.</remarks>
     /// \new493 Added in version 4.9.3
-    public bool ForceHideLabels { get; set; }
+    public bool ForceHideLabels
+    {
+        get => _gs.ForceHideLabels;
+        set => _gs.ForceHideLabels = value;
+    }
 
     /// <summary>
     /// Gets the version of GDAL library which current build of MapWinGIS uses.
     /// </summary>
     /// \new493 Added in version 4.9.3
-    public string GdalVersion => throw new NotImplementedException();
+    public string GdalVersion => _gs.GdalVersion;
 
     /// <summary>
     /// When set to true the opening of any OGR layer will be first made with forUpdate parameter. 
     /// If this first attempt fails, the layer will be opened without update flag.
     /// </summary>
+    /// <remarks>
+    /// > Default value is \c false.</remarks>
     /// \see OgrLayer.SupportsEditing
     /// \new493 Added in version 4.9.3
-    public bool OgrLayerForceUpdateMode { get; set; }
+    public bool OgrLayerForceUpdateMode
+    {
+        get => _gs.OgrLayerForceUpdateMode;
+        set => _gs.OgrLayerForceUpdateMode = value;
+    }
 
     /// <summary>
     /// Gets or sets pixel offset mode to be used during the rendering of vector layers.
     /// </summary>
+    /// <remarks>
+    /// > Default value is \c tkPixelOffsetMode.pomDefault.</remarks>
     /// \new493 Added in version 4.9.3
-    public tkPixelOffsetMode PixelOffsetMode { get; set; }
+    public tkPixelOffsetMode PixelOffsetMode
+    {
+        get => (tkPixelOffsetMode)_gs.PixelOffsetMode;
+        set => _gs.PixelOffsetMode = (MapWinGIS.tkPixelOffsetMode)value;
+    }
 
     /// <summary>
     /// Gets or sets the path where data necessary for GDAL coordinate systems / projections will be searched for.
@@ -623,7 +684,11 @@ public class GlobalSettings
     /// <remarks>This property effectively overrides GDAL_DATA environment variable. By default
     /// it's set to gdal-data folder in the directory where MapWinGIS is installed.</remarks>
     /// \new493 Added in version 4.9.3
-    public string GdalDataPath { get; set; }
+    public string GdalDataPath
+    {
+        get => _gs.GdalDataPath;
+        set => _gs.GdalDataPath = value;
+    }
 
     /// <summary>
     /// Gets or sets the path where GDAL plug-ins will be searched for.
@@ -631,18 +696,40 @@ public class GlobalSettings
     /// <remarks>This property effectively overrides GDAL_DRIVER_PATH environment variable. By default
     /// it's set to gdalplugins folder in the directory where MapWinGIS is installed.</remarks>
     /// \new493 Added in version 4.9.3
-    public string GdalPluginPath { get; set; }
+    public string GdalPluginPath
+    {
+        get => _gs.GdalPluginPath;
+        set => _gs.GdalPluginPath = value;
+    }
+
+    /// <summary>
+    /// Gets or sets the path where the PROJ resource files (proj.db) will be searched for (starting with PROJ 6).
+    /// </summary>
+    /// <remarks>This property effectively overrides PROJ_LIB environment variable. By default
+    /// it's set to proj7\share folder in the directory where MapWinGIS is installed.</remarks>
+    /// \new54 Added in version 5.4
+    public string ProjPath
+    {
+        get => _gs.ProjPath;
+        set => _gs.ProjPath = value;
+    }
 
     /// <summary>
     /// Gets or sets API key to access Bing maps. Without API key Bing Maps provider isn't available.
     /// </summary>
     /// \new493 Added in version 4.9.3
-    public string BingApiKey { get; set; }
+    public string BingApiKey
+    {
+        get => _gs.BingApiKey;
+        set => _gs.BingApiKey = value;
+    }
 
     /// <summary>
     /// Sets application credentials for Here Maps online tiles. 
     /// Without these credentials Here Maps providers are not available. 
     /// </summary>
+    /// <remarks>
+    /// \note Needs to be updated. Here Maps uses an API key now.</remarks>
     /// <param name="appId">Application Id. Can be obtained by registering on the site of the service.</param>
     /// <param name="appCode">Application code. Can be obtained by registering on the site of the service.</param>
     /// \new493 Added in version 4.9.3
@@ -653,104 +740,161 @@ public class GlobalSettings
 
     /// <summary>
     /// Sets the user-agent string that will be used when requesting tiles.
-    /// Defaults to 'MapWinGIS/5.0'
     /// </summary>
+    /// <remarks>
+    /// > Default value is \c MapWinGIS/5.0</remarks>
     /// <param name="userAgent"></param>
     /// \new510 Added in version 5.1.0
     public void SetHttpUserAgent(string userAgent)
     {
-        throw new NotImplementedException();
+       _gs.SetHttpUserAgent(userAgent);
     }
 
     /// <summary>
     /// Requests URL address for tiles download from Bing Maps server. 
     /// </summary>
-    /// <param name="Key">API key to test.</param>
+    /// <param name="key">API key to test.</param>
     /// <returns>True if the Url for downloading for obtained.</returns>
     /// \new493 Added in version 4.9.3
-    public bool TestBingApiKey(string Key)
+    public bool TestBingApiKey(string key)
     {
-        throw new NotImplementedException();
+        return _gs.TestBingApiKey(key);
     }
 
     /// <summary>
     /// Gets or sets the value indicating which compression mode will be used to compress image overviews.
     /// </summary>
-    /// <value>
-    /// The compress overviews.
-    /// </value>
+    /// <remarks>The value is read from the GDAL option \c COMPRESS_OVERVIEW
+    /// 
+    /// Bug fixed in v5.4: MWGIS-309
+    /// > Default value is \c tkTiffCompression.tkmNONE.</remarks>
     /// \new494 Added in version 4.9.4
-    public tkTiffCompression CompressOverviews { get; set; }
+    public tkTiffCompression CompressOverviews
+    {
+        get => (tkTiffCompression)_gs.CompressOverviews;
+        set => _gs.CompressOverviews = (MapWinGIS.tkTiffCompression)value;
+    }
 
     /// <summary>
     /// Gets or sets a value indicating whether greyscale or color scheme rendering will be used for grids by default.
     /// </summary>
+    /// <remarks>
+    /// > Default value is \c true.</remarks>
     /// \new494 Added in version 4.9.4
-    public bool GridFavorGreyscale { get; set; }
+    public bool GridFavorGreyscale
+    {
+        get => _gs.GridFavorGreyscale;
+        set => _gs.GridFavorGreyscale = value;
+    }
 
     /// <summary>
-    /// Gets or sets a value indicating whether histogram will be computed and news for grid by default.
+    /// Gets or sets a value indicating whether histogram will be computed and used for grid by default.
     /// </summary>
+    /// <remarks>
+    /// > Default value is \c true.</remarks>
     /// \new494 Added in version 4.9.4
-    public bool GridUseHistogram { get; set; }
+    public bool GridUseHistogram
+    {
+        get => _gs.GridUseHistogram;
+        set => _gs.GridUseHistogram = value;
+    }
 
     /// <summary>
     /// Gets or sets a value indicating whether instances of ICallback assigned to particular classes will be overriden by 
     /// global callback assined to GlobalSettings.ApplicationCallback property.
     /// </summary>
-    /// <value>
-    /// <c>true</c> if [override local callback]; otherwise, <c>false</c>.
-    /// </value>
+    /// <remarks>
+    /// > Default value is \c true.</remarks>
     /// \new494 Added in version 4.9.4
-    public bool OverrideLocalCallback { get; set; }
+    public bool OverrideLocalCallback
+    {
+        get => _gs.OverrideLocalCallback;
+        set => _gs.OverrideLocalCallback = value;
+    }
 
     /// <summary>
-    /// Gets or sets a value indicating whether caching DBF records is on.
+    /// Gets or sets a value indicating whether caching DBF records is enabled.
     /// </summary>
+    /// <remarks>
+    /// > Default value is \c true.</remarks>
     /// \new494 Added in version 4.9.4
-    public bool CacheDbfRecords { get; set; }
+    public bool CacheDbfRecords
+    {
+        get => _gs.CacheDbfRecords;
+        set => _gs.CacheDbfRecords = value;
+    }
 
     /// <summary>
-    /// Gets or sets a value indicating whether caching of rendering data for shapes is on.
+    /// Gets or sets a value indicating whether caching of rendering data for shapes is enabled.
     /// </summary>
+    /// <remarks>
+    /// > Default value is \c false.</remarks>
     /// \new494 Added in version 4.9.4
-    public bool CacheShapeRenderingData { get; set; }
+    public bool CacheShapeRenderingData
+    {
+        get => _gs.CacheShapeRenderingData;
+        set => _gs.CacheShapeRenderingData = value;
+    }
 
     /// <summary>
     /// Gets the filename of the file to log TMS/WMS requests to.
     /// </summary>
     /// \new494 Added in version 4.9.4
-    public string TileLogFilename { get; private set; }
+    public string TileLogFilename => _gs.TileLogFilename;
 
     /// <summary>
     /// Gets a value indicating whether tile log is opened.
     /// </summary>
-    public bool TileLogIsOpened { get; private set; }
+    public bool TileLogIsOpened => _gs.TileLogIsOpened;
 
     /// <summary>
     /// Gets or sets a value indicating whether only errors will be logged to the for TMS/WMS requests.
     /// </summary>
+    /// <remarks>
+    /// > Default value is \c true.</remarks>
     /// \new494 Added in version 4.9.4
-    public bool LogTileErrorsOnly { get; set; }
+    public bool LogTileErrorsOnly
+    {
+        get => _gs.LogTileErrorsOnly;
+        set => _gs.LogTileErrorsOnly = value;
+    }
 
     /// <summary>
     /// Gets or sets a value indicating whether WMS data will cached to the disk by default.
     /// </summary>
+    /// <remarks>
+    /// > Default value is \c true.</remarks>
     /// \new494 Added in version 4.9.4
-    public bool WmsDiskCaching { get; set; }
+    public bool WmsDiskCaching
+    {
+        get => _gs.WmsDiskCaching;
+        set => _gs.WmsDiskCaching = value;
+    }
 
     /// <summary>
     /// Gets or sets the callback verbosity.
     /// </summary>
+    /// <remarks>
+    /// > Default value is \c tkCallbackVerbosity.cvAll</remarks>
     /// \new494 Added in version 4.9.4
-    public tkCallbackVerbosity CallbackVerbosity { get; set; }
+    public tkCallbackVerbosity CallbackVerbosity
+    {
+        get => (tkCallbackVerbosity)_gs.CallbackVerbosity;
+        set => _gs.CallbackVerbosity = (MapWinGIS.tkCallbackVerbosity)value;
+    }
 
     /// <summary> 
     /// Share connection between layers (may be unstable). 
     /// For large read-only layers it will increase performance.
     /// </summary>
+    /// <remarks>
+    /// > Default value is \c false</remarks>
     /// \new494 Added in version 4.9.4
-    public bool OgrShareConnection { get; set; }
+    public bool OgrShareConnection
+    {
+        get => _gs.OgrShareConnection;
+        set => _gs.OgrShareConnection = value;
+    }
 
     /// <summary>
     /// Starts logging of tile requests.
@@ -763,7 +907,7 @@ public class GlobalSettings
     /// \new494 Added in version 4.9.4
     public bool StartLogTileRequests(string filename, bool errorsOnly = false)
     {
-        throw new NotImplementedException();
+        return _gs.StartLogTileRequests(filename, errorsOnly);
     }
 
     /// <summary>
@@ -773,7 +917,7 @@ public class GlobalSettings
     /// </summary>
     public void StopLogTileRequests()
     {
-        throw new NotImplementedException();
+        _gs.StopLogTileRequests();
     }
 }
 #if nsp
