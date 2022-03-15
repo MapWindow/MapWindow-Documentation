@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"group__labels__visualization.html#gae64dc748882f22216c21686cbb644381":[20,1,5,4],
 "group__labels__visualization.html#gae7ab5d4e1da115a7cd4d7e76dda8f9c0":[20,1,5,21],
 "group__labels__visualization.html#gae82a42eaf10e8065406ed8a4330bf49d":[20,1,5,13],
 "group__labels__visualization.html#gaf473ad8ce6215f13a68a7b0ccd38156c":[20,1,5,29],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "group__ogrlayer__editing.html":[20,3],
 "group__ogrlayer__editing.html#ga38b62668b4d0d6a9d451204b059177af":[20,3,1],
 "group__ogrlayer__editing.html#ga459d197a4b76c61203d356c216858cd0":[20,3,4],
-"group__ogrlayer__editing.html#gab600c338302574979a75ca17c651d5dc":[20,3,5],
-"group__ogrlayer__editing.html#gabb0d3b7c9d17bcdb7e293c037f71816b":[20,3,3]
+"group__ogrlayer__editing.html#gab600c338302574979a75ca17c651d5dc":[20,3,5]
 };

@@ -26,6 +26,6 @@ var searchData=
   ['isesrigrid_23',['IsESRIGrid',['../class_e_s_r_i_grid_manager.html#a48a4f8ff484e00076201d40087712189',1,'ESRIGridManager']]],
   ['issameprojection_24',['IsSameProjection',['../class_ax_map___deprecated.html#a6cfc2271f8052c7b8f618a8400c89055',1,'AxMap_Deprecated']]],
   ['isspatialindexvalid_25',['IsSpatialIndexValid',['../group__shapefile__spatial__index.html#gaac55b08f112733d46f81a3c038297967',1,'Shapefile']]],
-  ['istiffgrid_26',['IsTIFFGrid',['../class_ax_map___deprecated.html#ab67e9d98fbba54031aac8d9253dcc383',1,'AxMap_Deprecated']]],
-  ['istiffgrid_27',['IsTiffGrid',['../class_utils.html#ab844e7d8b409a29366d8d436308efab8',1,'Utils']]]
+  ['istiffgrid_26',['IsTiffGrid',['../class_utils.html#ab844e7d8b409a29366d8d436308efab8',1,'Utils']]],
+  ['istiffgrid_27',['IsTIFFGrid',['../class_ax_map___deprecated.html#ab67e9d98fbba54031aac8d9253dcc383',1,'AxMap_Deprecated']]]
 ];

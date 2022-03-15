@@ -34,14 +34,15 @@ var searchData=
   ['prefetcherrorcount_31',['PrefetchErrorCount',['../class_tiles.html#af2aaacdb32413c74e5939ac3fb604121',1,'Tiles']]],
   ['prefetchtotalcount_32',['PrefetchTotalCount',['../class_tiles.html#a2f8805df628925e5a02aa601483a509f',1,'Tiles']]],
   ['priority_33',['Priority',['../class_label_category.html#a64128d55b4934e89f6673e3df172b9bb',1,'LabelCategory']]],
-  ['projection_34',['Projection',['../group__map__coordinates.html#gab92dae994a0c57d34d393933db142827',1,'AxMap.Projection()'],['../class_shapefile.html#ac5a9a0a4ecadfbf565ccb6448c8cf63e',1,'Shapefile.Projection()'],['../class_grid_header.html#af405e9b1cf21841fc0237646d5fd8be0',1,'GridHeader.Projection()']]],
+  ['projection_34',['Projection',['../class_grid_header.html#af405e9b1cf21841fc0237646d5fd8be0',1,'GridHeader.Projection()'],['../class_shapefile.html#ac5a9a0a4ecadfbf565ccb6448c8cf63e',1,'Shapefile.Projection()'],['../group__map__coordinates.html#gab92dae994a0c57d34d393933db142827',1,'AxMap.Projection()']]],
   ['projectionissphericalmercator_35',['ProjectionIsSphericalMercator',['../class_tiles.html#a128ac0b4b1dc6cff4dfa4783512fe3ab',1,'Tiles']]],
   ['projectionname_36',['ProjectionName',['../class_geo_projection.html#afc369571336907159ccf5074c46f00b8',1,'GeoProjection']]],
   ['projectionstatus_37',['ProjectionStatus',['../class_tiles.html#afaad1270fdbc9f10fc1cdffa4874e1f1',1,'Tiles']]],
-  ['provider_38',['Provider',['../class_tiles.html#a97f10f6bd92601a1060d11eeeae37ef3',1,'Tiles']]],
-  ['providerid_39',['ProviderId',['../class_tiles.html#a88bcfabfa01b277e66f145a05b0f81a8',1,'Tiles']]],
-  ['providername_40',['ProviderName',['../class_tiles.html#a04aaba8117aac5ecd2bf9789ebd48675',1,'Tiles']]],
-  ['providers_41',['Providers',['../class_tiles.html#a8c5f9b24eb3dc5f8fb8fb7d9d3e3abd4',1,'Tiles']]],
-  ['proxy_42',['Proxy',['../class_tiles.html#aac14d579a3ba515903dc1feafe1cb787',1,'Tiles']]],
-  ['proxyauthenticationscheme_43',['ProxyAuthenticationScheme',['../class_tiles.html#aa73117ea2dbbc4c5c47c06989f0672a8',1,'Tiles']]]
+  ['projpath_38',['ProjPath',['../class_global_settings.html#a571539b7f86032655f2112ddc32f9c49',1,'GlobalSettings']]],
+  ['provider_39',['Provider',['../class_tiles.html#a97f10f6bd92601a1060d11eeeae37ef3',1,'Tiles']]],
+  ['providerid_40',['ProviderId',['../class_tiles.html#a88bcfabfa01b277e66f145a05b0f81a8',1,'Tiles']]],
+  ['providername_41',['ProviderName',['../class_tiles.html#a04aaba8117aac5ecd2bf9789ebd48675',1,'Tiles']]],
+  ['providers_42',['Providers',['../class_tiles.html#a8c5f9b24eb3dc5f8fb8fb7d9d3e3abd4',1,'Tiles']]],
+  ['proxy_43',['Proxy',['../class_tiles.html#aac14d579a3ba515903dc1feafe1cb787',1,'Tiles']]],
+  ['proxyauthenticationscheme_44',['ProxyAuthenticationScheme',['../class_tiles.html#aa73117ea2dbbc4c5c47c06989f0672a8',1,'Tiles']]]
 ];

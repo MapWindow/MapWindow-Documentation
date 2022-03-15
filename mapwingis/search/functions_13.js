@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['testbingapikey_0',['TestBingApiKey',['../class_global_settings.html#aa2acbdd90d9a805922e579df8e1468aa',1,'GlobalSettings']]],
+  ['testbingapikey_0',['TestBingApiKey',['../class_global_settings.html#a07117d3e5f29b8f46252a6069373dca1',1,'GlobalSettings']]],
   ['testcapability_1',['TestCapability',['../class_ogr_datasource.html#a3c8e8aa8bdd0541fa476cf90f4d95305',1,'OgrDatasource.TestCapability()'],['../class_ogr_layer.html#a2c2a26ad0574b37adf2d7d8f02a78709',1,'OgrLayer.TestCapability()']]],
   ['testexpression_2',['TestExpression',['../class_table.html#a6247bfd45f3c87b5df922d971206288d',1,'Table']]],
   ['tileprojectiontogeoprojection_3',['TileProjectionToGeoProjection',['../class_utils.html#a51112893f0ff0ac06d0c187a840a440d',1,'Utils']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"group__ogrlayer__editing.html#gabb0d3b7c9d17bcdb7e293c037f71816b":[20,3,3],
 "group__ogrlayer__editing.html#gae276464b72c07572fa53b726aea2608d":[20,3,2],
 "group__ogrlayer__editing.html#gaeab4d012f5ca48fd9b1eebf7fea0f17c":[20,3,6],
 "group__ogrlayer__editing.html#gaff711c044e2b761e914230eac2e244a5":[20,3,0],

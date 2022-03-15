@@ -5,7 +5,7 @@ var searchData=
   ['tag_2',['Tag',['../class_shape_drawing_options.html#a5dfdc73194550b5d4075b82e152f32ea',1,'ShapeDrawingOptions']]],
   ['tan_3',['Tan',['../_enumerations_8cs.html#a56128309d85c3a2ffcd1e585e4b82c6da1266b4e6f81e60733ec6c717e0181f60',1,'Enumerations.cs']]],
   ['teal_4',['Teal',['../_enumerations_8cs.html#a56128309d85c3a2ffcd1e585e4b82c6dae20385a2b41df1743f787ebef18222b8',1,'Enumerations.cs']]],
-  ['testbingapikey_5',['TestBingApiKey',['../class_global_settings.html#aa2acbdd90d9a805922e579df8e1468aa',1,'GlobalSettings']]],
+  ['testbingapikey_5',['TestBingApiKey',['../class_global_settings.html#a07117d3e5f29b8f46252a6069373dca1',1,'GlobalSettings']]],
   ['testcapability_6',['TestCapability',['../class_ogr_datasource.html#a3c8e8aa8bdd0541fa476cf90f4d95305',1,'OgrDatasource.TestCapability()'],['../class_ogr_layer.html#a2c2a26ad0574b37adf2d7d8f02a78709',1,'OgrLayer.TestCapability()']]],
   ['testexpression_7',['TestExpression',['../class_table.html#a6247bfd45f3c87b5df922d971206288d',1,'Table']]],
   ['text_8',['Text',['../class_label.html#a55506b13a2502ecfefeaab07068dc715',1,'Label']]],

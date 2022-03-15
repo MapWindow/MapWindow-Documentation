@@ -1,13 +1,13 @@
 var class_global_settings =
 [
     [ "LocalizedString", "class_global_settings.html#a6813926b12a512919276be6e872a9fcd", null ],
+    [ "LocalizedString", "class_global_settings.html#a9476f1f09127cd0f810bd8ddb48086d1", null ],
     [ "ResetGdalError", "class_global_settings.html#a3efc84bb5a592cd3cd89a2a9ab09c92d", null ],
-    [ "set_LocalizedString", "class_global_settings.html#a8aa56632bd6667f6165644ec7120397f", null ],
     [ "SetHereMapsApiKey", "class_global_settings.html#a5c40697a3b2cd75d4a566a002b77aefe", null ],
     [ "SetHttpUserAgent", "class_global_settings.html#ab75eb86f80fea903c7bfdfdafad399a6", null ],
     [ "StartLogTileRequests", "class_global_settings.html#a8f170d3e7620dd6836d6ebc6d3afb925", null ],
     [ "StopLogTileRequests", "class_global_settings.html#aeb7825b55eb8b99e71380f7af90d1441", null ],
-    [ "TestBingApiKey", "class_global_settings.html#aa2acbdd90d9a805922e579df8e1468aa", null ],
+    [ "TestBingApiKey", "class_global_settings.html#a07117d3e5f29b8f46252a6069373dca1", null ],
     [ "AllowLayersWithIncompleteReprojection", "class_global_settings.html#a4ed3a88d0491fbd093478b7c70c91c81", null ],
     [ "AllowLayersWithoutProjections", "class_global_settings.html#a5bff9786db3cca061a1680ae276edd7c", null ],
     [ "AllowProjectionMismatch", "class_global_settings.html#ac50b27d2854f7f95e9468b60c1af5170", null ],
@@ -56,6 +56,7 @@ var class_global_settings =
     [ "OgrStringEncoding", "class_global_settings.html#a8e43d0edbcc84438b0688149e69f0b3a", null ],
     [ "OverrideLocalCallback", "class_global_settings.html#a15ebee027f69360add8352e8cb8d4a65", null ],
     [ "PixelOffsetMode", "class_global_settings.html#a400e5f178f627985b3471bb06d5d5ead", null ],
+    [ "ProjPath", "class_global_settings.html#a571539b7f86032655f2112ddc32f9c49", null ],
     [ "RandomColorSchemeForGrids", "class_global_settings.html#ae3aed610246fdc58906ad3d8abc8ca57", null ],
     [ "RasterOverviewCreation", "class_global_settings.html#ab8dda6edf3bf944d4707371bf5107544", null ],
     [ "RasterOverviewResampling", "class_global_settings.html#a8f74fbc66908047837c2c7ecab67ddc6", null ],

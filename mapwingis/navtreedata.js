@@ -117,13 +117,13 @@ var NAVTREEINDEX =
 "_known_01extents_8cs.html#a3f4d5ea0773503afde5c48a24b1068fea66891dbdb84c28bddd7f11ca18b6bdd5",
 "class_ax_map___deprecated.html#a4c4475be12161f073792effd391e98bf",
 "class_file_manager.html#a3a5293f9cb6526e28cafbff1b2cff42c",
-"class_grid.html#ab56dcb93a0e056e8b0ae6cafdcb5c701",
-"class_ogr_layer.html#a0971f8ca8f5313f472fba21fce39469d",
-"class_shape_editor.html#aed68fdbc6c751fed2bd44ee8a9009a18",
-"class_tiles.html#a80d302016748f4f6dfebe433c41ee415",
-"functions_prop_n.html",
-"group__labels__visualization.html#gae7ab5d4e1da115a7cd4d7e76dda8f9c0",
-"group__ogrlayer__editing.html#gae276464b72c07572fa53b726aea2608d"
+"class_grid.html#a9d19d492a018fcabc26e20867ff1bb2a",
+"class_ogr_layer.html",
+"class_shape_editor.html#ae8ac1b4bf0a2090f57d1fb8176a634b7",
+"class_tiles.html#a743a4a7a3a5dc650595447ff4054d4c9",
+"functions_prop_m.html",
+"group__labels__visualization.html#gae64dc748882f22216c21686cbb644381",
+"group__ogrlayer__editing.html#gabb0d3b7c9d17bcdb7e293c037f71816b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
