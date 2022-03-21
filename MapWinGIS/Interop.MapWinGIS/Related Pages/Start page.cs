@@ -26,7 +26,7 @@
 /// \section about_doc About this documentation
 /// 
 /// The documentation is generated from .NET interop assemblies rather then from the source itself, therefore C# syntax is used everywhere. 
-/// However it doesn't mean that MapWinGIS usage is limited to the .NET languages only. See <a href = "_overview.html">overview</a> for more details. \n
+/// However it doesn't mean that MapWinGIS usage is limited to the .NET languages only. See <a href="overview.html">overview</a> for more details. \n
 /// 
 /// The description of several large classes like AxMap or Shapefile is split into logical parts (modules). The complete list of API members with links 
 /// is still present on the class page.
