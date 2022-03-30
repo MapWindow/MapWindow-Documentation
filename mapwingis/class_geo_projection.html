@@ -355,7 +355,7 @@ The different variants for specification of the same projection even in the same
 
 <p>Returns object to initial empty state. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_geo_projection.html#a1c718aa7de46f006f334335370d61d45" title="Gets a value indicating whether the object can be changed.">GeoProjection.IsFrozen</a> </dd></dl>
-<dl class="newpage491"><dt><b><a class="el" href="newpage491.html#_newpage491000038">New API 4.9.1:</a></b></dt><dd>Added in version 4.9.1 </dd></dl>
+<dl class="newpage491"><dt><b><a class="el" href="newpage491.html#_newpage491000036">New API 4.9.1:</a></b></dt><dd>Added in version 4.9.1 </dd></dl>
 
 </div>
 </div>
@@ -377,7 +377,7 @@ The different variants for specification of the same projection even in the same
 <p>Creates a copy <a class="el" href="class_geo_projection.html" title="Holds information about coordinate system and projection of the data.">GeoProjection</a> object </p>
 <dl class="section return"><dt>Returns</dt><dd>A copy of <a class="el" href="class_geo_projection.html" title="Holds information about coordinate system and projection of the data.">GeoProjection</a> object.</dd></dl>
 <p >It's not guaranteed that exact clone will be created. The method uses GeoProjection.ExportFromWKT and <a class="el" href="class_geo_projection.html#ac987538d90acf78e1312536a35e1bc08" title="Initializes geoprojection object from OGC WKT format.">GeoProjection.ImportFromWKT</a> pair of methods which may yield slightly different result, as ExportToWKT may add defaults for parameters missing in initial Proj4 definition.</p>
-<dl class="newpage491"><dt><b><a class="el" href="newpage491.html#_newpage491000040">New API 4.9.1:</a></b></dt><dd>Added in version 4.9.1 </dd></dl>
+<dl class="newpage491"><dt><b><a class="el" href="newpage491.html#_newpage491000037">New API 4.9.1:</a></b></dt><dd>Added in version 4.9.1 </dd></dl>
 <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_shapefile_to_drawing_layer_8cs-example.html#a9">ShapefileToDrawingLayer.cs</a>.</dd>
 </dl>
 
@@ -938,7 +938,7 @@ The different variants for specification of the same projection even in the same
 
 <p>Sets so called Google Mercator projection (aka Spherical Mercator; EPSG:3857), commonly used by tile servers. </p>
 <dl class="section return"><dt>Returns</dt><dd>True on success.</dd></dl>
-<dl class="newpage490"><dt><b><a class="el" href="newpage490.html#_newpage490000012">New API 4.9.0:</a></b></dt><dd>Added in version 4.9.0 </dd></dl>
+<dl class="newpage490"><dt><b><a class="el" href="newpage490.html#_newpage490000009">New API 4.9.0:</a></b></dt><dd>Added in version 4.9.0 </dd></dl>
 
 </div>
 </div>
@@ -1012,7 +1012,7 @@ The different variants for specification of the same projection even in the same
 <p>Sets WGS84 geographic coordinates system (EPSG:4326). </p>
 <p >Equirectangular projection will be implicitly used during rendering. </p>
 <dl class="section return"><dt>Returns</dt><dd>True on success.</dd></dl>
-<dl class="newpage491"><dt><b><a class="el" href="newpage491.html#_newpage491000044">New API 4.9.1:</a></b></dt><dd>Added in version 4.9.1 </dd></dl>
+<dl class="newpage491"><dt><b><a class="el" href="newpage491.html#_newpage491000039">New API 4.9.1:</a></b></dt><dd>Added in version 4.9.1 </dd></dl>
 
 </div>
 </div>
@@ -1151,7 +1151,7 @@ The different variants for specification of the same projection even in the same
 </dl>
 <p >It uses GDAL's OGRSpatialReference.AutoIdentifyEPSG method and recognized limited number of commonly used coordinate systems (WGS84, NAD83, etc) and their zonal projections, plus information stored in Authority node for WKT format will be used as well.</p>
 <dl class="section return"><dt>Returns</dt><dd>True on success.</dd></dl>
-<dl class="newpage491"><dt><b><a class="el" href="newpage491.html#_newpage491000047">New API 4.9.1:</a></b></dt><dd>Added in version 4.9.1 </dd></dl>
+<dl class="newpage491"><dt><b><a class="el" href="newpage491.html#_newpage491000040">New API 4.9.1:</a></b></dt><dd>Added in version 4.9.1 </dd></dl>
 
 </div>
 </div>
@@ -1366,7 +1366,7 @@ The different variants for specification of the same projection even in the same
 
 <p>Gets a value indicating whether the object can be changed. </p>
 <p >When frozen all the methods which can change the inner state of object will fail. The property is set to true for map projection applied with AxMap.SetGeoProjection (see details there). </p>
-<dl class="newpage491"><dt><b><a class="el" href="newpage491.html#_newpage491000042">New API 4.9.1:</a></b></dt><dd>Added in version 4.9.1 </dd></dl>
+<dl class="newpage491"><dt><b><a class="el" href="newpage491.html#_newpage491000038">New API 4.9.1:</a></b></dt><dd>Added in version 4.9.1 </dd></dl>
 
 </div>
 </div>
@@ -1622,7 +1622,7 @@ The different variants for specification of the same projection even in the same
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_geo_projection.html">GeoProjection</a></li>
-    <li class="footer">Generated on Mon Mar 21 2022 15:47:26 for MapWinGIS by 
+    <li class="footer">Generated on Wed Mar 30 2022 13:38:01 for MapWinGIS by 
 		<a href="https://www.doxygen.org/index.html">
 			<img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/>
 		</a> 1.9.3 
