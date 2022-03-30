@@ -8,7 +8,7 @@
     <meta name="description"
           content="MapWindow GIS is an open source GIS desktop application used by a large number of users and organisations around the world. MapWindow5 intents to be the most user-friendly GIS Desktop application available">
     <meta name="keywords"
-          content="mapwindow, mapwindow5, mapwingis, mapwindows, meems, qgis, tatukgis, desktop, gis, open, source, open source, open-source, free, foss, gratis, application, community">
+          content="mapwindow, mapwindow5, mapwingis, mapwindows, meems, qgis, tatukgis, desktop, gis, open, source, open source, open-source, free, foss, gratis, application, community, gdal, geos">
     <meta name="author" content="https://p.w3layouts.com/demos/patros/web/index.html">
     <meta name="contact" content="info@mapwindow.nl">
     <meta http-equiv="expires" content="wen, 10 January 2018 10:30:00 GMT">
@@ -136,6 +136,7 @@
         <div class="row">
             <div class="col-md-offset-1 col-md-10">
                 <div class="text-center">
+                	<div class="footer-ad hidden-sm hidden-xs" data-type="ad" data-publisher="mapwindow.org" data-format="728x90" data-zone="ros" data-tags="open-source%2cgis%2cc#%2cc++%2capi%2cgeographical%2cgdal%2cproj%2cgeos"></div>
                     <h2>About the MapWindow GIS Open Source Project</h2>
                     <img class="img-responsive displayed" src="images/short.png" alt="Company about"/>
                     <div class="row">
@@ -838,12 +839,8 @@
 <footer id="footer">
     <div class="container">
         <div class="row">
-            <div class="footer-ad hidden-sm hidden-xs" data-type="ad" data-publisher="mapwindow.org" data-zone="ron"
-                 data-format="728x90" data-tags="GIS%2cMapping%2cMap%2cC%23%2cMaps%2cWMS%2cgeospatial">&nbsp;
-            </div>
-            <div class="footer-ad visible-sm visible-xs" data-type="ad" data-publisher="mapwindow.org" data-zone="ron"
-                 data-format="300x250"
-                 data-tags="GIS%2cMapping%2cMap%2cC%23%2cMaps%2cWMS%2cgeospatial"></div>
+        	<div class="footer-ad hidden-sm hidden-xs" data-type="ad" data-publisher="mapwindow.org" data-format="728x90" data-zone="ros" data-tags="open-source%2cgis%2cc#%2cc++%2capi%2cgeographical%2cgdal%2cproj%2cgeos"></div>
+			<div class="footer-ad visible-sm visible-xs" data-type="ad" data-publisher="mapwindow.org" data-format="300x250" data-zone="ros" data-tags="GIS%2cMapping%2cMap%2cC%23%2cMaps%2cWMS%2cgeospatial"></div>
         </div>
         <div class="row myfooter">
             <div class="col-sm-6">
@@ -963,23 +960,16 @@
     ga('send', 'pageview');
 </script>
 
-<script type="text/javascript">
-    function _dmBootstrap(file) {
-        var _dma = document.createElement('script');
-        _dma.type = 'text/javascript';
-        _dma.async = true;
-        _dma.src = ('https:' === document.location.protocol ? 'https://' : 'http://') + file;
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
-    }
-
-    function _dmFollowup(file) {
-        if (typeof DMAds === 'undefined') _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js');
-    }
-
-    (function () {
-        _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js');
-        setTimeout(_dmFollowup, 2000);
-    })();
+<script type='text/javascript'>
+function _dmBootstrap(file) {
+    var _dma = document.createElement('script');
+    _dma.type = 'text/javascript';
+    _dma.async = true;
+    _dma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + file;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+}
+function _dmFollowup(file) { if (typeof DMAds === 'undefined') _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js'); }
+(function () { _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js'); setTimeout(_dmFollowup, 2000); })();
 </script>
 </body>
 </html>
